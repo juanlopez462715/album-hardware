@@ -307,3 +307,6 @@ album-hardware/
 | En WSL, `npm` dice `node: not found` o usa rutas de `C:\` | Corre los comandos en la terminal de Ubuntu, donde `nvm` carga Node. |
 | La página muestra un recuadro rojo “Hay errores en los archivos de datos” | Corre `npm run validar` y corrige lo que indique. |
 | El workflow de GitHub falla | Abre la pestaña **Actions** del repositorio, entra al paso en rojo y lee el mensaje del validador. |
+| En Windows, PowerShell dice que **“la ejecución de scripts está deshabilitada”** al correr `npm` | Corre una sola vez `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` y vuelve a intentar. Otra opción es escribir `npm.cmd` en lugar de `npm`. |
+| `npm install` o `npm run dev` fallan con errores raros (por ejemplo `SyntaxError` o `Unsupported engine`) | Revisa tu versión con `node -v`: debe ser **22 o más**. Si es menor, instala la versión LTS desde [nodejs.org](https://nodejs.org/) y vuelve a correr `npm install`. |
+| El primer `git push` pide iniciar sesión | Es normal: Git abre el navegador para que entres a GitHub. Si después dice `Permission denied` o `403`, revisa que aceptaste la invitación al repositorio. |
