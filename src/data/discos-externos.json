@@ -1,0 +1,57 @@
+{
+  "categoria": "discos-externos",
+  "nombre": "Disco duro externo",
+  "grupo": "externo",
+  "orden": 7,
+  "descripcion": "Disco duro portátil de 2.5 pulgadas para respaldos y para transportar archivos grandes.",
+  "comparaciones": [
+    {
+      "id": "hdd-externo-2tb",
+      "titulo": "Discos duros externos portátiles de 2 TB",
+      "descripcion": "Se alimentan por el mismo cable USB; no necesitan cargador.",
+      "productos": [
+        {
+          "marca": "Western Digital",
+          "modelo": "My Passport 2 TB",
+          "precioGTQ": 749,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/discos-externos/wd-my-passport-2tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "USB 3.2 Gen 1", "mejor": null },
+            { "nombre": "Protección de datos", "valor": "Contraseña y cifrado AES de 256 bits por hardware", "mejor": null },
+            { "nombre": "Recuperación de datos incluida", "valor": "No", "mejor": null },
+            { "nombre": "Garantía", "valor": 3, "unidad": "años", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "Seagate",
+          "modelo": "One Touch 2 TB (HDD)",
+          "precioGTQ": 729,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/discos-externos/seagate-one-touch-2tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "USB 3.0", "mejor": null },
+            { "nombre": "Protección de datos", "valor": "Contraseña", "mejor": null },
+            { "nombre": "Recuperación de datos incluida", "valor": "Sí (servicio Rescue)", "mejor": null },
+            { "nombre": "Garantía", "valor": 2, "unidad": "años", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "My Passport 2 TB",
+        "razones": [
+          "Cifra por hardware con AES de 256 bits: si el disco se pierde, nadie puede leer los archivos sin la contraseña.",
+          "3 años de garantía contra 2, por una diferencia de unos Q20."
+        ]
+      }
+    }
+  ]
+}

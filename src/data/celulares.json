@@ -1,0 +1,185 @@
+{
+  "categoria": "celulares",
+  "nombre": "Celulares",
+  "grupo": "por-gama",
+  "orden": 1,
+  "descripcion": "Teléfonos inteligentes comparados por pares en gama baja, media y alta.",
+  "comparaciones": [
+    {
+      "id": "celular-gama-baja",
+      "gama": "baja",
+      "titulo": "Celulares de gama baja",
+      "descripcion": "Versiones de 4 GB de RAM y 128 GB de almacenamiento.",
+      "productos": [
+        {
+          "marca": "Samsung",
+          "modelo": "Galaxy A16 5G (4 GB + 128 GB)",
+          "precioGTQ": 1799,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/celulares/samsung-galaxy-a16-5g.jpg",
+          "specs": [
+            { "nombre": "Pantalla", "valor": "6.7\" Super AMOLED", "mejor": null },
+            { "nombre": "Frecuencia de pantalla", "valor": 90, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Procesador", "valor": "Exynos 1330", "mejor": null },
+            { "nombre": "RAM", "valor": 4, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento", "valor": 128, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Cámara principal", "valor": 50, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Batería", "valor": 5000, "unidad": "mAh", "mejor": "mayor" },
+            { "nombre": "Carga rápida", "valor": 25, "unidad": "W", "mejor": "mayor" },
+            { "nombre": "Red 5G", "valor": "Sí", "mejor": null },
+            { "nombre": "Actualizaciones de Android prometidas", "valor": 6, "unidad": "versiones", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "Xiaomi",
+          "modelo": "Redmi 14C (4 GB + 128 GB)",
+          "precioGTQ": 1199,
+          "tienda": "Pacifiko",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/celulares/xiaomi-redmi-14c.jpg",
+          "specs": [
+            { "nombre": "Pantalla", "valor": "6.88\" LCD IPS", "mejor": null },
+            { "nombre": "Frecuencia de pantalla", "valor": 120, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Procesador", "valor": "MediaTek Helio G81-Ultra", "mejor": null },
+            { "nombre": "RAM", "valor": 4, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento", "valor": 128, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Cámara principal", "valor": 50, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Batería", "valor": 5160, "unidad": "mAh", "mejor": "mayor" },
+            { "nombre": "Carga rápida", "valor": 18, "unidad": "W", "mejor": "mayor" },
+            { "nombre": "Red 5G", "valor": "No (solo 4G)", "mejor": null },
+            { "nombre": "Actualizaciones de Android prometidas", "valor": 2, "unidad": "versiones", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Galaxy A16 5G (4 GB + 128 GB)",
+        "razones": [
+          "Samsung promete 6 actualizaciones de Android: el teléfono seguirá recibiendo mejoras y parches de seguridad años después que el Redmi.",
+          "Pantalla Super AMOLED (negros reales y mejor visibilidad al sol), red 5G y carga de 25 W contra 18 W.",
+          "Cuesta unos Q600 más; si el presupuesto es estricto, el Redmi 14C gana en pantalla de 120 Hz y en batería."
+        ]
+      }
+    },
+    {
+      "id": "celular-gama-media",
+      "gama": "media",
+      "titulo": "Celulares de gama media",
+      "descripcion": "Versiones de 8 GB de RAM y 256 GB de almacenamiento.",
+      "productos": [
+        {
+          "marca": "Samsung",
+          "modelo": "Galaxy A56 5G (8 GB + 256 GB)",
+          "precioGTQ": 3999,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/celulares/samsung-galaxy-a56-5g.jpg",
+          "specs": [
+            { "nombre": "Pantalla", "valor": "6.7\" Super AMOLED", "mejor": null },
+            { "nombre": "Frecuencia de pantalla", "valor": 120, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Procesador", "valor": "Exynos 1580", "mejor": null },
+            { "nombre": "RAM", "valor": 8, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento", "valor": 256, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Cámara principal", "valor": 50, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Batería", "valor": 5000, "unidad": "mAh", "mejor": "mayor" },
+            { "nombre": "Carga rápida", "valor": 45, "unidad": "W", "mejor": "mayor" },
+            { "nombre": "Resistencia al agua y polvo", "valor": "IP67", "mejor": null },
+            { "nombre": "Actualizaciones de Android prometidas", "valor": 6, "unidad": "versiones", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "Xiaomi",
+          "modelo": "Redmi Note 14 Pro 5G (8 GB + 256 GB)",
+          "precioGTQ": 3199,
+          "tienda": "Pacifiko",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/celulares/xiaomi-redmi-note-14-pro-5g.jpg",
+          "specs": [
+            { "nombre": "Pantalla", "valor": "6.67\" AMOLED 1.5K", "mejor": null },
+            { "nombre": "Frecuencia de pantalla", "valor": 120, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Procesador", "valor": "MediaTek Dimensity 7300-Ultra", "mejor": null },
+            { "nombre": "RAM", "valor": 8, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento", "valor": 256, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Cámara principal", "valor": 200, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Batería", "valor": 5110, "unidad": "mAh", "mejor": "mayor" },
+            { "nombre": "Carga rápida", "valor": 45, "unidad": "W", "mejor": "mayor" },
+            { "nombre": "Resistencia al agua y polvo", "valor": "IP68", "mejor": null },
+            { "nombre": "Actualizaciones de Android prometidas", "valor": 3, "unidad": "versiones", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Redmi Note 14 Pro 5G (8 GB + 256 GB)",
+        "razones": [
+          "Cuesta unos Q800 menos y aun así gana en cámara principal (200 MP con estabilización óptica), batería (5110 mAh) y resistencia (IP68 contra IP67).",
+          "Iguala al Samsung en RAM, almacenamiento, pantalla de 120 Hz y carga de 45 W.",
+          "El Galaxy A56 solo gana en años de actualizaciones (6 contra 3): conviene si se piensa usar el teléfono más de 4 años."
+        ]
+      }
+    },
+    {
+      "id": "celular-gama-alta",
+      "gama": "alta",
+      "titulo": "Celulares de gama alta",
+      "descripcion": "Los modelos insignia más grandes de Apple y Samsung, en su versión de 256 GB.",
+      "productos": [
+        {
+          "marca": "Apple",
+          "modelo": "iPhone 17 Pro Max (256 GB)",
+          "precioGTQ": 12999,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/celulares/apple-iphone-17-pro-max.jpg",
+          "specs": [
+            { "nombre": "Pantalla", "valor": "6.9\" OLED (Super Retina XDR)", "mejor": null },
+            { "nombre": "Frecuencia de pantalla", "valor": 120, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Procesador", "valor": "Apple A19 Pro", "mejor": null },
+            { "nombre": "Almacenamiento", "valor": 256, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Cámara principal", "valor": 48, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Zoom óptico del teleobjetivo", "valor": 4, "unidad": "×", "mejor": "mayor" },
+            { "nombre": "Cámara frontal", "valor": 18, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Lápiz incluido", "valor": "No", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Samsung",
+          "modelo": "Galaxy S26 Ultra (256 GB)",
+          "precioGTQ": 11999,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/celulares/samsung-galaxy-s26-ultra.jpg",
+          "specs": [
+            { "nombre": "Pantalla", "valor": "6.9\" Dynamic AMOLED 2X", "mejor": null },
+            { "nombre": "Frecuencia de pantalla", "valor": 120, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Procesador", "valor": "Snapdragon 8 Elite Gen 5 for Galaxy", "mejor": null },
+            { "nombre": "Almacenamiento", "valor": 256, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Cámara principal", "valor": 200, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Zoom óptico del teleobjetivo", "valor": 5, "unidad": "×", "mejor": "mayor" },
+            { "nombre": "Cámara frontal", "valor": 12, "unidad": "MP", "mejor": "mayor" },
+            { "nombre": "Lápiz incluido", "valor": "Sí (S Pen)", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Galaxy S26 Ultra (256 GB)",
+        "razones": [
+          "Zoom óptico de 5× contra 4× y cámara principal de 200 MP: más detalle al acercarse o recortar fotos.",
+          "Incluye el S Pen para tomar apuntes, subrayar PDF y firmar documentos, algo muy útil para un estudiante.",
+          "Cuesta unos Q1,000 menos que el iPhone 17 Pro Max."
+        ]
+      }
+    }
+  ]
+}

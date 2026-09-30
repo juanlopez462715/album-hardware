@@ -1,0 +1,62 @@
+{
+  "categoria": "ssd-sata",
+  "nombre": "SSD SATA",
+  "grupo": "interno",
+  "orden": 4,
+  "descripcion": "Almacenamiento en memoria flash, sin partes móviles, conectado por la interfaz SATA III (hasta ~600 MB/s).",
+  "comparaciones": [
+    {
+      "id": "ssd-sata-1tb",
+      "titulo": "SSD SATA de 1 TB",
+      "descripcion": "Los dos llegan casi al límite de la interfaz SATA III; la diferencia real está en el precio.",
+      "productos": [
+        {
+          "marca": "Samsung",
+          "modelo": "870 EVO 1 TB",
+          "precioGTQ": 899,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/ssd-sata/samsung-870-evo-1tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
+            { "nombre": "Lectura secuencial", "valor": 560, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Escritura secuencial", "valor": 530, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" },
+            { "nombre": "Caché DRAM", "valor": "Sí", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Kingston",
+          "modelo": "KC600 1 TB",
+          "precioGTQ": 749,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/ssd-sata/kingston-kc600-1tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
+            { "nombre": "Lectura secuencial", "valor": 550, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Escritura secuencial", "valor": 520, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" },
+            { "nombre": "Caché DRAM", "valor": "Sí", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "KC600 1 TB",
+        "razones": [
+          "Misma durabilidad (600 TBW) y misma garantía (5 años) que el Samsung, por unos Q150 menos.",
+          "La diferencia de velocidad es de apenas 10 MB/s (menos del 2 %): no se nota en el uso diario porque ambos están limitados por la interfaz SATA III.",
+          "Incluye caché DRAM, que mantiene el rendimiento estable al copiar muchos archivos seguidos."
+        ]
+      }
+    }
+  ]
+}

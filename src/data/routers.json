@@ -1,0 +1,61 @@
+{
+  "categoria": "routers",
+  "nombre": "Router",
+  "grupo": "redes",
+  "orden": 1,
+  "descripcion": "Dirige el tráfico entre la red de la casa u oficina e Internet, y reparte la señal Wi-Fi.",
+  "comparaciones": [
+    {
+      "id": "router-wifi-6-doble-banda",
+      "titulo": "Routers Wi-Fi 6 de doble banda",
+      "descripcion": "Los dos usan Wi-Fi 6 (802.11ax) en 2.4 GHz y 5 GHz; cambia el ancho de canal en 5 GHz.",
+      "productos": [
+        {
+          "marca": "TP-Link",
+          "modelo": "Archer AX55",
+          "precioGTQ": 849,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/routers/tp-link-archer-ax55.jpg",
+          "specs": [
+            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
+            { "nombre": "Velocidad total (clase)", "valor": 3000, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 5 GHz", "valor": 2402, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 2.4 GHz", "valor": 574, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Antenas externas", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Puertos LAN Gigabit", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Red en malla (mesh)", "valor": "OneMesh / EasyMesh", "mejor": null }
+          ]
+        },
+        {
+          "marca": "ASUS",
+          "modelo": "RT-AX1800S",
+          "precioGTQ": 699,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/routers/asus-rt-ax1800s.jpg",
+          "specs": [
+            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
+            { "nombre": "Velocidad total (clase)", "valor": 1800, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 5 GHz", "valor": 1201, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 2.4 GHz", "valor": 574, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Antenas externas", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Puertos LAN Gigabit", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Red en malla (mesh)", "valor": "AiMesh", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Archer AX55",
+        "razones": [
+          "Duplica la velocidad en 5 GHz (2402 contra 1201 Mbps) porque usa canales de 160 MHz: se nota con varios dispositivos conectados o al pasar archivos dentro de la red.",
+          "Mismas antenas y puertos que el ASUS; la diferencia de unos Q150 compra el doble de capacidad en la banda más rápida."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "categoria": "monitores",
+  "nombre": "Monitor",
+  "grupo": "externo",
+  "orden": 1,
+  "descripcion": "Dispositivo de salida que muestra la imagen generada por la tarjeta gráfica.",
+  "comparaciones": [
+    {
+      "id": "monitor-27-qhd-gaming",
+      "titulo": "Monitores gaming de 27 pulgadas QHD",
+      "descripcion": "Misma resolución y tamaño, pero distinta tecnología de panel: IPS contra VA curvo.",
+      "productos": [
+        {
+          "marca": "LG",
+          "modelo": "UltraGear 27GS75Q-B",
+          "precioGTQ": 2099,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/monitores/lg-ultragear-27gs75q-b.jpg",
+          "specs": [
+            { "nombre": "Tamaño", "valor": 27, "unidad": "\"", "mejor": null },
+            { "nombre": "Resolución", "valor": "2560 × 1440 (QHD)", "mejor": null },
+            { "nombre": "Tipo de panel", "valor": "IPS plano", "mejor": null },
+            { "nombre": "Frecuencia de actualización", "valor": 180, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Tiempo de respuesta", "valor": "1 ms (GtG)", "mejor": null },
+            { "nombre": "Contraste", "valor": 1000, "unidad": ":1", "mejor": "mayor" },
+            { "nombre": "HDR", "valor": "HDR10", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Samsung",
+          "modelo": "Odyssey G5 27\" (LS27CG552)",
+          "precioGTQ": 2199,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/monitores/samsung-odyssey-g5-ls27cg552.jpg",
+          "specs": [
+            { "nombre": "Tamaño", "valor": 27, "unidad": "\"", "mejor": null },
+            { "nombre": "Resolución", "valor": "2560 × 1440 (QHD)", "mejor": null },
+            { "nombre": "Tipo de panel", "valor": "VA curvo (1000R)", "mejor": null },
+            { "nombre": "Frecuencia de actualización", "valor": 165, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Tiempo de respuesta", "valor": "1 ms (MPRT)", "mejor": null },
+            { "nombre": "Contraste", "valor": 2500, "unidad": ":1", "mejor": "mayor" },
+            { "nombre": "HDR", "valor": "HDR10", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "UltraGear 27GS75Q-B",
+        "razones": [
+          "Panel IPS: colores más fieles y buenos ángulos de visión, útil si además de jugar se editan fotos o video.",
+          "180 Hz contra 165 Hz. Además, su 1 ms se mide en GtG (el tiempo real que tarda un píxel en cambiar de color); el 1 ms del Samsung es MPRT, una medida distinta que no se compara directamente.",
+          "El Samsung gana en contraste (negros más profundos, mejor para películas en un cuarto oscuro), pero para uso general el IPS es más versátil."
+        ]
+      }
+    }
+  ]
+}

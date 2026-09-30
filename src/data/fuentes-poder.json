@@ -1,0 +1,62 @@
+{
+  "categoria": "fuentes-poder",
+  "nombre": "Fuente de poder",
+  "grupo": "interno",
+  "orden": 8,
+  "descripcion": "Convierte la corriente alterna del tomacorriente en los voltajes de corriente directa (12 V, 5 V, 3.3 V) que usa la PC.",
+  "comparaciones": [
+    {
+      "id": "psu-750w-gold",
+      "titulo": "Fuentes de 750 W con certificación 80 PLUS Gold",
+      "descripcion": "Potencia suficiente para una PC gamer de gama media-alta, con eficiencia de al menos 87 % a media carga.",
+      "productos": [
+        {
+          "marca": "Corsair",
+          "modelo": "RM750e (ATX 3.1)",
+          "precioGTQ": 1049,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/fuentes-poder/corsair-rm750e.jpg",
+          "specs": [
+            { "nombre": "Potencia", "valor": 750, "unidad": "W", "mejor": "mayor" },
+            { "nombre": "Certificación", "valor": "80 PLUS Gold", "mejor": null },
+            { "nombre": "Cables", "valor": "Totalmente modulares", "mejor": null },
+            { "nombre": "Norma", "valor": "ATX 3.1", "mejor": null },
+            { "nombre": "Conector para GPU", "valor": "12V-2x6", "mejor": null },
+            { "nombre": "Ventilador", "valor": 120, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Garantía", "valor": 7, "unidad": "años", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "Seasonic",
+          "modelo": "FOCUS GX-750 ATX 3",
+          "precioGTQ": 1199,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/fuentes-poder/seasonic-focus-gx-750.jpg",
+          "specs": [
+            { "nombre": "Potencia", "valor": 750, "unidad": "W", "mejor": "mayor" },
+            { "nombre": "Certificación", "valor": "80 PLUS Gold", "mejor": null },
+            { "nombre": "Cables", "valor": "Totalmente modulares", "mejor": null },
+            { "nombre": "Norma", "valor": "ATX 3.0", "mejor": null },
+            { "nombre": "Conector para GPU", "valor": "12VHPWR", "mejor": null },
+            { "nombre": "Ventilador", "valor": 120, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Garantía", "valor": 10, "unidad": "años", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "FOCUS GX-750 ATX 3",
+        "razones": [
+          "10 años de garantía contra 7: el fabricante respalda la fuente durante toda la vida útil de la PC.",
+          "Su ventilador tiene modo híbrido: se detiene cuando la carga es baja, así que en tareas de oficina la fuente es silenciosa.",
+          "La fuente alimenta a todos los demás componentes; pagar unos Q150 más por 3 años extra de garantía es una inversión que protege todo el equipo."
+        ]
+      }
+    }
+  ]
+}

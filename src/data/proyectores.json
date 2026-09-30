@@ -1,0 +1,60 @@
+{
+  "categoria": "proyectores",
+  "nombre": "Proyector (cañonera)",
+  "grupo": "externo",
+  "orden": 10,
+  "descripcion": "Proyecta la imagen de la computadora sobre una pared o pantalla grande.",
+  "comparaciones": [
+    {
+      "id": "proyector-aula-xga",
+      "titulo": "Proyectores XGA para aula",
+      "descripcion": "Ojo: en proyectores 3LCD el brillo en color es igual al brillo en blanco; en DLP de un solo chip, el brillo en color suele ser menor.",
+      "productos": [
+        {
+          "marca": "Epson",
+          "modelo": "PowerLite E20",
+          "precioGTQ": 4499,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/proyectores/epson-powerlite-e20.jpg",
+          "specs": [
+            { "nombre": "Tecnología", "valor": "3LCD", "mejor": null },
+            { "nombre": "Resolución nativa", "valor": "1024 × 768 (XGA)", "mejor": null },
+            { "nombre": "Brillo", "valor": 3400, "unidad": "lúmenes", "mejor": "mayor" },
+            { "nombre": "Contraste", "valor": 15000, "unidad": ":1", "mejor": "mayor" },
+            { "nombre": "Vida de la lámpara (modo ahorro)", "valor": 12000, "unidad": "h", "mejor": "mayor" },
+            { "nombre": "Entradas", "valor": "HDMI, VGA y USB", "mejor": null }
+          ]
+        },
+        {
+          "marca": "BenQ",
+          "modelo": "MX560",
+          "precioGTQ": 4299,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/proyectores/benq-mx560.jpg",
+          "specs": [
+            { "nombre": "Tecnología", "valor": "DLP", "mejor": null },
+            { "nombre": "Resolución nativa", "valor": "1024 × 768 (XGA)", "mejor": null },
+            { "nombre": "Brillo", "valor": 4000, "unidad": "lúmenes", "mejor": "mayor" },
+            { "nombre": "Contraste", "valor": 20000, "unidad": ":1", "mejor": "mayor" },
+            { "nombre": "Vida de la lámpara (modo ahorro)", "valor": 15000, "unidad": "h", "mejor": "mayor" },
+            { "nombre": "Entradas", "valor": "2 × HDMI y VGA", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "MX560",
+        "razones": [
+          "4000 lúmenes contra 3400: la imagen se ve mejor en aulas con luz natural, que es donde más se usa una cañonera.",
+          "Su lámpara dura hasta 15,000 horas en modo ahorro contra 12,000: menos gasto en repuestos.",
+          "Además cuesta unos Q200 menos. El Epson conviene si se proyectan muchas fotos o videos, donde su brillo en color hace diferencia."
+        ]
+      }
+    }
+  ]
+}

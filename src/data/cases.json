@@ -1,0 +1,62 @@
+{
+  "categoria": "cases",
+  "nombre": "Case (gabinete)",
+  "grupo": "interno",
+  "orden": 9,
+  "descripcion": "La caja que protege los componentes y organiza el flujo de aire que los enfría.",
+  "comparaciones": [
+    {
+      "id": "case-mid-tower-airflow",
+      "titulo": "Cases mid tower con frente de malla",
+      "descripcion": "Frente perforado para que entre aire fresco directo a los componentes.",
+      "productos": [
+        {
+          "marca": "Corsair",
+          "modelo": "4000D Airflow",
+          "precioGTQ": 899,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/cases/corsair-4000d-airflow.jpg",
+          "specs": [
+            { "nombre": "Formato", "valor": "Mid tower (ATX)", "mejor": null },
+            { "nombre": "Ventiladores incluidos", "valor": 2, "mejor": "mayor" },
+            { "nombre": "Tamaño de ventiladores", "valor": "2 × 120 mm", "mejor": null },
+            { "nombre": "Largo máximo de GPU", "valor": 360, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Altura máxima de disipador", "valor": 170, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Radiador frontal máximo", "valor": 360, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Panel lateral", "valor": "Vidrio templado", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Lian Li",
+          "modelo": "LANCOOL 216",
+          "precioGTQ": 999,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/cases/lian-li-lancool-216.jpg",
+          "specs": [
+            { "nombre": "Formato", "valor": "Mid tower (ATX)", "mejor": null },
+            { "nombre": "Ventiladores incluidos", "valor": 3, "mejor": "mayor" },
+            { "nombre": "Tamaño de ventiladores", "valor": "2 × 160 mm + 1 × 140 mm", "mejor": null },
+            { "nombre": "Largo máximo de GPU", "valor": 392, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Altura máxima de disipador", "valor": 180.5, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Radiador frontal máximo", "valor": 360, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Panel lateral", "valor": "Vidrio templado", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "LANCOOL 216",
+        "razones": [
+          "Trae 3 ventiladores (dos de 160 mm al frente) contra 2 de 120 mm: mueve más aire sin tener que comprar ventiladores extra.",
+          "Admite tarjetas gráficas de hasta 392 mm y disipadores de hasta 180 mm, así que cabe prácticamente cualquier componente actual.",
+          "Por unos Q100 más, la diferencia en ventiladores incluidos ya compensa el precio."
+        ]
+      }
+    }
+  ]
+}

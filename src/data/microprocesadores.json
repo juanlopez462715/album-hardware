@@ -1,0 +1,171 @@
+{
+  "categoria": "microprocesadores",
+  "nombre": "Microprocesadores",
+  "grupo": "por-gama",
+  "orden": 3,
+  "descripcion": "Procesadores de escritorio AMD contra Intel, comparados por pares en cada gama de precio.",
+  "comparaciones": [
+    {
+      "id": "cpu-gama-baja",
+      "gama": "baja",
+      "titulo": "Procesadores de gama baja",
+      "descripcion": "Para una PC económica de estudio o juegos ligeros (necesitan tarjeta gráfica aparte).",
+      "productos": [
+        {
+          "marca": "AMD",
+          "modelo": "Ryzen 5 5600",
+          "precioGTQ": 999,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/microprocesadores/amd-ryzen-5-5600.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 6, "mejor": "mayor" },
+            { "nombre": "Hilos", "valor": 12, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 4.4, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 32, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 65, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "AM4", "mejor": null },
+            { "nombre": "Gráficos integrados", "valor": "No", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Intel",
+          "modelo": "Core i3-14100F",
+          "precioGTQ": 899,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/microprocesadores/intel-core-i3-14100f.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Hilos", "valor": 8, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 4.7, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 12, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 58, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "LGA1700", "mejor": null },
+            { "nombre": "Gráficos integrados", "valor": "No", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Ryzen 5 5600",
+        "razones": [
+          "6 núcleos y 12 hilos contra 4 y 8: un 50 % más de núcleos para juegos modernos y para tener varios programas abiertos.",
+          "32 MB de caché L3, casi el triple que los 12 MB del i3.",
+          "Por unos Q100 más; la plataforma AM4 tiene tarjetas madre y memoria DDR4 muy baratas."
+        ]
+      }
+    },
+    {
+      "id": "cpu-gama-media",
+      "gama": "media",
+      "titulo": "Procesadores de gama media",
+      "descripcion": "La generación actual de cada marca: Zen 5 contra Arrow Lake.",
+      "productos": [
+        {
+          "marca": "AMD",
+          "modelo": "Ryzen 5 9600X",
+          "precioGTQ": 1999,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/microprocesadores/amd-ryzen-5-9600x.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 6, "mejor": "mayor" },
+            { "nombre": "Tipo de núcleos", "valor": "6 iguales (Zen 5)", "mejor": null },
+            { "nombre": "Hilos", "valor": 12, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 5.4, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 32, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 65, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "AM5", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Intel",
+          "modelo": "Core Ultra 5 245K",
+          "precioGTQ": 2299,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/microprocesadores/intel-core-ultra-5-245k.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 14, "mejor": "mayor" },
+            { "nombre": "Tipo de núcleos", "valor": "6 de rendimiento + 8 de eficiencia", "mejor": null },
+            { "nombre": "Hilos", "valor": 14, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 5.2, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 24, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 125, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "LGA1851", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Ryzen 5 9600X",
+        "razones": [
+          "Consume 65 W contra 125 W: menos calor, un disipador más barato y menos gasto de luz.",
+          "Frecuencia de 5.4 GHz y 32 MB de caché L3: en juegos rinde igual o mejor que el Core Ultra 5, aunque tenga menos núcleos.",
+          "Cuesta unos Q300 menos. El Intel conviene si se edita video, donde sus 14 núcleos sí se aprovechan."
+        ]
+      }
+    },
+    {
+      "id": "cpu-gama-alta",
+      "gama": "alta",
+      "titulo": "Procesadores de gama alta",
+      "descripcion": "Los tope de gama de escritorio de cada marca.",
+      "productos": [
+        {
+          "marca": "AMD",
+          "modelo": "Ryzen 9 9950X3D",
+          "precioGTQ": 6499,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/microprocesadores/amd-ryzen-9-9950x3d.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 16, "mejor": "mayor" },
+            { "nombre": "Tipo de núcleos", "valor": "16 iguales (Zen 5)", "mejor": null },
+            { "nombre": "Hilos", "valor": 32, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 5.7, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 128, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 170, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "AM5", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Intel",
+          "modelo": "Core Ultra 9 285K",
+          "precioGTQ": 4999,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/microprocesadores/intel-core-ultra-9-285k.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 24, "mejor": "mayor" },
+            { "nombre": "Tipo de núcleos", "valor": "8 de rendimiento + 16 de eficiencia", "mejor": null },
+            { "nombre": "Hilos", "valor": 24, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 5.7, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 36, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 125, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "LGA1851", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Ryzen 9 9950X3D",
+        "razones": [
+          "32 hilos contra 24 y 128 MB de caché L3 (3D V-Cache) contra 36 MB: es de los más rápidos tanto en juegos como en tareas pesadas como render 3D.",
+          "El Intel tiene más núcleos, pero 16 son de eficiencia (más simples y lentos); los 16 núcleos del Ryzen son todos de alto rendimiento.",
+          "Cuesta unos Q1,500 más; se justifica en una estación de trabajo o una PC gamer de gama alta que también se use para crear contenido."
+        ]
+      }
+    }
+  ]
+}

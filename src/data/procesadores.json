@@ -1,0 +1,62 @@
+{
+  "categoria": "procesadores",
+  "nombre": "Procesador (CPU)",
+  "grupo": "interno",
+  "orden": 1,
+  "descripcion": "La unidad central de procesamiento: busca, decodifica y ejecuta las instrucciones de los programas.",
+  "comparaciones": [
+    {
+      "id": "cpu-gaming-9800x3d-vs-265k",
+      "titulo": "Procesadores para gaming: más caché contra más núcleos",
+      "descripcion": "AMD apuesta por una caché L3 enorme; Intel, por más núcleos con arquitectura híbrida.",
+      "productos": [
+        {
+          "marca": "AMD",
+          "modelo": "Ryzen 7 9800X3D",
+          "precioGTQ": 4299,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/procesadores/amd-ryzen-7-9800x3d.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 8, "mejor": "mayor" },
+            { "nombre": "Tipo de núcleos", "valor": "8 iguales (Zen 5)", "mejor": null },
+            { "nombre": "Hilos", "valor": 16, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 5.2, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 96, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 120, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "AM5", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Intel",
+          "modelo": "Core Ultra 7 265K",
+          "precioGTQ": 2899,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/procesadores/intel-core-ultra-7-265k.jpg",
+          "specs": [
+            { "nombre": "Núcleos", "valor": 20, "mejor": "mayor" },
+            { "nombre": "Tipo de núcleos", "valor": "8 de rendimiento + 12 de eficiencia", "mejor": null },
+            { "nombre": "Hilos", "valor": 20, "mejor": "mayor" },
+            { "nombre": "Frecuencia turbo máxima", "valor": 5.5, "unidad": "GHz", "mejor": "mayor" },
+            { "nombre": "Caché L3", "valor": 30, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Potencia base (TDP)", "valor": 125, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Socket", "valor": "LGA1851", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Ryzen 7 9800X3D",
+        "razones": [
+          "Sus 96 MB de caché L3 (tecnología 3D V-Cache) son más del triple que los 30 MB del Core Ultra 7: el procesador encuentra más datos sin ir a la RAM, y en juegos eso se traduce en más cuadros por segundo.",
+          "Intel gana en núcleos y frecuencia, lo que ayuda en edición de video o compilación; pero para una PC gamer la caché pesa más que la cantidad de núcleos.",
+          "El socket AM5 permite actualizar a futuras generaciones de Ryzen sin cambiar la tarjeta madre."
+        ]
+      }
+    }
+  ]
+}

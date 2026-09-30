@@ -1,0 +1,59 @@
+{
+  "categoria": "discos-duros",
+  "nombre": "Disco duro (HDD)",
+  "grupo": "interno",
+  "orden": 6,
+  "descripcion": "Almacenamiento magnético en platos giratorios: más lento que un SSD, pero más barato por gigabyte.",
+  "comparaciones": [
+    {
+      "id": "hdd-2tb-7200rpm",
+      "titulo": "Discos duros internos de 2 TB a 7200 RPM",
+      "descripcion": "Ideales como segundo disco para fotos, videos y respaldos.",
+      "productos": [
+        {
+          "marca": "Seagate",
+          "modelo": "BarraCuda 2 TB (ST2000DM008)",
+          "precioGTQ": 549,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/discos-duros/seagate-barracuda-2tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Velocidad de giro", "valor": 7200, "unidad": "RPM", "mejor": "mayor" },
+            { "nombre": "Caché", "valor": 256, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
+            { "nombre": "Formato", "valor": "3.5 pulgadas", "mejor": null },
+            { "nombre": "Garantía", "valor": 2, "unidad": "años", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "Western Digital",
+          "modelo": "WD Blue 2 TB (WD20EZBX)",
+          "precioGTQ": 579,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/discos-duros/wd-blue-2tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Velocidad de giro", "valor": 7200, "unidad": "RPM", "mejor": "mayor" },
+            { "nombre": "Caché", "valor": 256, "unidad": "MB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
+            { "nombre": "Formato", "valor": "3.5 pulgadas", "mejor": null },
+            { "nombre": "Garantía", "valor": 2, "unidad": "años", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "BarraCuda 2 TB (ST2000DM008)",
+        "razones": [
+          "Las especificaciones son prácticamente idénticas (7200 RPM, 256 MB de caché y 2 años de garantía), así que decide el precio: el BarraCuda cuesta unos Q30 menos.",
+          "Úsenlo como segundo disco y dejen el sistema operativo en un SSD: en acceso aleatorio un SSD es decenas de veces más rápido porque no tiene que mover un cabezal físico."
+        ]
+      }
+    }
+  ]
+}

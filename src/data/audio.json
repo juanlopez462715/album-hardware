@@ -1,0 +1,60 @@
+{
+  "categoria": "audio",
+  "nombre": "Audífonos y bocinas",
+  "grupo": "externo",
+  "orden": 4,
+  "descripcion": "Dispositivos de salida de sonido (y de entrada, cuando traen micrófono).",
+  "comparaciones": [
+    {
+      "id": "audifonos-gaming-microfono",
+      "titulo": "Audífonos gaming con micrófono",
+      "descripcion": "Diadema cerrada, sobre la oreja, para clases, videollamadas y juegos.",
+      "productos": [
+        {
+          "marca": "HyperX",
+          "modelo": "Cloud III",
+          "precioGTQ": 749,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/audio/hyperx-cloud-iii.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "Sobre la oreja, cerrados", "mejor": null },
+            { "nombre": "Tamaño de los drivers", "valor": 53, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Respuesta en frecuencia", "valor": "10 Hz – 21 kHz", "mejor": null },
+            { "nombre": "Micrófono", "valor": "Desmontable, con cancelación de ruido", "mejor": null },
+            { "nombre": "Conexión", "valor": "USB-C, USB-A y 3.5 mm", "mejor": null },
+            { "nombre": "Sonido espacial", "valor": "DTS Headphone:X", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Razer",
+          "modelo": "BlackShark V2 X",
+          "precioGTQ": 399,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/audio/razer-blackshark-v2-x.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "Sobre la oreja, cerrados", "mejor": null },
+            { "nombre": "Tamaño de los drivers", "valor": 50, "unidad": "mm", "mejor": "mayor" },
+            { "nombre": "Respuesta en frecuencia", "valor": "12 Hz – 28 kHz", "mejor": null },
+            { "nombre": "Micrófono", "valor": "Fijo, flexible (cardioide)", "mejor": null },
+            { "nombre": "Conexión", "valor": "3.5 mm", "mejor": null },
+            { "nombre": "Sonido espacial", "valor": "7.1 por software (solo Windows)", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Cloud III",
+        "razones": [
+          "Se conecta por USB-C, USB-A o 3.5 mm: el mismo audífono sirve en PC, laptop, consola y celular.",
+          "Su micrófono es desmontable: se quita cuando se usan solo para escuchar y, si se daña, se reemplaza por separado.",
+          "Cuesta unos Q350 más; el BlackShark V2 X es la alternativa si solo se usará en la PC."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "categoria": "enfriamiento",
+  "nombre": "Enfriamiento",
+  "grupo": "interno",
+  "orden": 10,
+  "descripcion": "Disipa el calor del procesador para que mantenga su frecuencia máxima sin sobrecalentarse.",
+  "comparaciones": [
+    {
+      "id": "cooler-aire-torre-doble",
+      "titulo": "Disipadores por aire de torre doble",
+      "descripcion": "Dos bloques de aletas con seis tubos de calor (heatpipes) y dos ventiladores de 120 mm.",
+      "productos": [
+        {
+          "marca": "Thermalright",
+          "modelo": "Peerless Assassin 120 SE",
+          "precioGTQ": 399,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/enfriamiento/thermalright-peerless-assassin-120-se.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "Aire, torre doble", "mejor": null },
+            { "nombre": "Tubos de calor (heatpipes)", "valor": 6, "mejor": "mayor" },
+            { "nombre": "Ventiladores incluidos", "valor": 2, "mejor": "mayor" },
+            { "nombre": "Altura", "valor": 155, "unidad": "mm", "mejor": "menor" },
+            { "nombre": "Ruido máximo", "valor": 25.6, "unidad": "dBA", "mejor": "menor" },
+            { "nombre": "Sockets compatibles", "valor": "AM4, AM5, LGA1700, LGA1851", "mejor": null }
+          ]
+        },
+        {
+          "marca": "DeepCool",
+          "modelo": "AK620",
+          "precioGTQ": 649,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/enfriamiento/deepcool-ak620.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "Aire, torre doble", "mejor": null },
+            { "nombre": "Tubos de calor (heatpipes)", "valor": 6, "mejor": "mayor" },
+            { "nombre": "Ventiladores incluidos", "valor": 2, "mejor": "mayor" },
+            { "nombre": "Altura", "valor": 160, "unidad": "mm", "mejor": "menor" },
+            { "nombre": "Ruido máximo", "valor": 28, "unidad": "dBA", "mejor": "menor" },
+            { "nombre": "Sockets compatibles", "valor": "AM4, AM5, LGA1700, LGA1851", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Peerless Assassin 120 SE",
+        "razones": [
+          "Usa el mismo diseño que el AK620 (6 heatpipes y 2 ventiladores) y en pruebas independientes enfría a un nivel muy parecido, por casi la mitad del precio.",
+          "Es 5 mm más bajo (155 mm), así que cabe en más cases, y según el fabricante es más silencioso: 25.6 dBA contra 28 dBA."
+        ]
+      }
+    }
+  ]
+}

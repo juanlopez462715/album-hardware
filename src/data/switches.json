@@ -1,0 +1,61 @@
+{
+  "categoria": "switches",
+  "nombre": "Switch",
+  "grupo": "redes",
+  "orden": 2,
+  "descripcion": "Multiplica los puertos de red cableada y envía cada paquete solo al equipo que le corresponde.",
+  "comparaciones": [
+    {
+      "id": "switch-8-puertos-gestion-basica",
+      "titulo": "Switches Gigabit de 8 puertos con gestión básica",
+      "descripcion": "Permiten crear VLAN y dar prioridad al tráfico (QoS) sin llegar al precio de un switch empresarial.",
+      "productos": [
+        {
+          "marca": "TP-Link",
+          "modelo": "TL-SG108E",
+          "precioGTQ": 329,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/switches/tp-link-tl-sg108e.jpg",
+          "specs": [
+            { "nombre": "Puertos", "valor": 8, "mejor": "mayor" },
+            { "nombre": "Velocidad por puerto", "valor": 1000, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Capacidad de conmutación", "valor": 16, "unidad": "Gbps", "mejor": "mayor" },
+            { "nombre": "Gestión", "valor": "Easy Smart (página web)", "mejor": null },
+            { "nombre": "VLAN 802.1Q", "valor": "Sí", "mejor": null },
+            { "nombre": "Calidad de servicio (QoS)", "valor": "Sí", "mejor": null },
+            { "nombre": "Carcasa", "valor": "Metálica", "mejor": null }
+          ]
+        },
+        {
+          "marca": "NETGEAR",
+          "modelo": "GS308E",
+          "precioGTQ": 399,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/switches/netgear-gs308e.jpg",
+          "specs": [
+            { "nombre": "Puertos", "valor": 8, "mejor": "mayor" },
+            { "nombre": "Velocidad por puerto", "valor": 1000, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Capacidad de conmutación", "valor": 16, "unidad": "Gbps", "mejor": "mayor" },
+            { "nombre": "Gestión", "valor": "Plus (página web)", "mejor": null },
+            { "nombre": "VLAN 802.1Q", "valor": "Sí", "mejor": null },
+            { "nombre": "Calidad de servicio (QoS)", "valor": "Sí", "mejor": null },
+            { "nombre": "Carcasa", "valor": "Metálica", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "TL-SG108E",
+        "razones": [
+          "Hace exactamente lo mismo (8 puertos Gigabit, 16 Gbps, VLAN 802.1Q y QoS) por unos Q70 menos: con especificaciones empatadas, decide el precio.",
+          "Con VLAN se puede separar la red de un laboratorio (por ejemplo, alumnos y docentes) usando un solo switch."
+        ]
+      }
+    }
+  ]
+}

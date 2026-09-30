@@ -1,0 +1,57 @@
+{
+  "categoria": "memorias-usb",
+  "nombre": "Memoria USB",
+  "grupo": "externo",
+  "orden": 6,
+  "descripcion": "Almacenamiento flash portátil que se conecta a cualquier puerto USB.",
+  "comparaciones": [
+    {
+      "id": "usb-128gb",
+      "titulo": "Memorias USB de 128 GB",
+      "descripcion": "Ambas usan USB 3.2 Gen 1 (5 Gb/s), el mismo estándar que antes se llamaba USB 3.0.",
+      "productos": [
+        {
+          "marca": "Kingston",
+          "modelo": "DataTraveler Kyson 128 GB",
+          "precioGTQ": 149,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/memorias-usb/kingston-datatraveler-kyson-128gb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 128, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "USB 3.2 Gen 1 (USB-A)", "mejor": null },
+            { "nombre": "Lectura máxima", "valor": 200, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Carcasa", "valor": "Metal", "mejor": null },
+            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "SanDisk",
+          "modelo": "Ultra Flair 128 GB",
+          "precioGTQ": 139,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/memorias-usb/sandisk-ultra-flair-128gb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 128, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "USB 3.2 Gen 1 (USB-A)", "mejor": null },
+            { "nombre": "Lectura máxima", "valor": 150, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Carcasa", "valor": "Metal", "mejor": null },
+            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "DataTraveler Kyson 128 GB",
+        "razones": [
+          "Lee a 200 MB/s contra 150 MB/s: copiar una carpeta de 10 GB hacia la PC toma unos 50 segundos en lugar de poco más de un minuto.",
+          "Cuesta apenas unos Q10 más y tiene la misma garantía de 5 años."
+        ]
+      }
+    }
+  ]
+}

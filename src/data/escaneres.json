@@ -1,0 +1,57 @@
+{
+  "categoria": "escaneres",
+  "nombre": "Escáner (scanner)",
+  "grupo": "externo",
+  "orden": 9,
+  "descripcion": "Dispositivo de entrada que digitaliza documentos y fotografías.",
+  "comparaciones": [
+    {
+      "id": "escaner-cama-plana",
+      "titulo": "Escáneres de cama plana para documentos y fotos",
+      "descripcion": "Sensor CIS delgado y alimentación por el mismo cable USB.",
+      "productos": [
+        {
+          "marca": "Canon",
+          "modelo": "CanoScan LiDE 300",
+          "precioGTQ": 699,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/escaneres/canon-canoscan-lide-300.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "Cama plana (sensor CIS)", "mejor": null },
+            { "nombre": "Resolución óptica", "valor": 2400, "unidad": "dpi", "mejor": "mayor" },
+            { "nombre": "Profundidad de color", "valor": 48, "unidad": "bits", "mejor": "mayor" },
+            { "nombre": "Tamaño máximo", "valor": "A4 / Carta", "mejor": null },
+            { "nombre": "Alimentación", "valor": "Por USB, sin adaptador", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Epson",
+          "modelo": "Perfection V39 II",
+          "precioGTQ": 1049,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/escaneres/epson-perfection-v39-ii.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "Cama plana (sensor CIS)", "mejor": null },
+            { "nombre": "Resolución óptica", "valor": 4800, "unidad": "dpi", "mejor": "mayor" },
+            { "nombre": "Profundidad de color", "valor": 48, "unidad": "bits", "mejor": "mayor" },
+            { "nombre": "Tamaño máximo", "valor": "A4 / Carta", "mejor": null },
+            { "nombre": "Alimentación", "valor": "Por USB, sin adaptador", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "CanoScan LiDE 300",
+        "razones": [
+          "Los documentos se escanean normalmente a 300 o 600 dpi: sus 2400 dpi sobran, así que pagar por 4800 dpi no aporta nada en tareas escolares o de oficina.",
+          "Cuesta unos Q350 menos. El Epson solo vale la pena para digitalizar fotos pequeñas que luego se van a ampliar."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "categoria": "repetidores",
+  "nombre": "Repetidor Wi-Fi",
+  "grupo": "redes",
+  "orden": 3,
+  "descripcion": "Recibe la señal del router y la retransmite para llegar a zonas donde el Wi-Fi llega débil.",
+  "comparaciones": [
+    {
+      "id": "repetidor-wifi-6",
+      "titulo": "Repetidores Wi-Fi 6 con puerto Ethernet",
+      "descripcion": "Los dos tienen un puerto Gigabit para conectar por cable una PC, un televisor o una consola.",
+      "productos": [
+        {
+          "marca": "TP-Link",
+          "modelo": "RE505X",
+          "precioGTQ": 549,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/repetidores/tp-link-re505x.jpg",
+          "specs": [
+            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
+            { "nombre": "Velocidad total (clase)", "valor": 1500, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 5 GHz", "valor": 1201, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 2.4 GHz", "valor": 300, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Puerto Ethernet", "valor": "1 × Gigabit", "mejor": null },
+            { "nombre": "Red en malla (mesh)", "valor": "OneMesh", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Mercusys",
+          "modelo": "ME70X",
+          "precioGTQ": 449,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/repetidores/mercusys-me70x.jpg",
+          "specs": [
+            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
+            { "nombre": "Velocidad total (clase)", "valor": 1800, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 5 GHz", "valor": 1201, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Velocidad en 2.4 GHz", "valor": 574, "unidad": "Mbps", "mejor": "mayor" },
+            { "nombre": "Puerto Ethernet", "valor": "1 × Gigabit", "mejor": null },
+            { "nombre": "Red en malla (mesh)", "valor": "EasyMesh", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "ME70X",
+        "razones": [
+          "Casi el doble de velocidad en 2.4 GHz (574 contra 300 Mbps), la banda que mejor atraviesa paredes y por eso la que más se usa lejos del router.",
+          "Cuesta unos Q100 menos. Mercusys es una marca del mismo grupo que TP-Link, con respaldo similar."
+        ]
+      }
+    }
+  ]
+}

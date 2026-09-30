@@ -1,0 +1,64 @@
+{
+  "categoria": "tarjetas-madre",
+  "nombre": "Tarjeta madre",
+  "grupo": "interno",
+  "orden": 2,
+  "descripcion": "Conecta todos los componentes y define qué procesador, memoria y almacenamiento se pueden usar.",
+  "comparaciones": [
+    {
+      "id": "mb-am5-b650-msi-vs-asus",
+      "titulo": "Tarjetas madre AM5 con chipset B650",
+      "descripcion": "Mismo socket y mismo chipset: la diferencia está en almacenamiento y conectividad.",
+      "productos": [
+        {
+          "marca": "MSI",
+          "modelo": "B650 GAMING PLUS WIFI",
+          "precioGTQ": 1599,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/tarjetas-madre/msi-b650-gaming-plus-wifi.jpg",
+          "specs": [
+            { "nombre": "Socket", "valor": "AM5", "mejor": null },
+            { "nombre": "Chipset", "valor": "AMD B650", "mejor": null },
+            { "nombre": "Formato", "valor": "ATX", "mejor": null },
+            { "nombre": "Ranuras de RAM (DDR5)", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Ranuras M.2", "valor": 2, "mejor": "mayor" },
+            { "nombre": "M.2 PCIe 5.0", "valor": "No", "mejor": null },
+            { "nombre": "Wi-Fi", "valor": "Wi-Fi 6E", "mejor": null },
+            { "nombre": "Red cableada (LAN)", "valor": 2.5, "unidad": "Gb/s", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "ASUS",
+          "modelo": "TUF GAMING B650-PLUS WIFI",
+          "precioGTQ": 1799,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/tarjetas-madre/asus-tuf-gaming-b650-plus-wifi.jpg",
+          "specs": [
+            { "nombre": "Socket", "valor": "AM5", "mejor": null },
+            { "nombre": "Chipset", "valor": "AMD B650", "mejor": null },
+            { "nombre": "Formato", "valor": "ATX", "mejor": null },
+            { "nombre": "Ranuras de RAM (DDR5)", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Ranuras M.2", "valor": 3, "mejor": "mayor" },
+            { "nombre": "M.2 PCIe 5.0", "valor": "Sí (1 ranura)", "mejor": null },
+            { "nombre": "Wi-Fi", "valor": "Wi-Fi 6", "mejor": null },
+            { "nombre": "Red cableada (LAN)", "valor": 2.5, "unidad": "Gb/s", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "TUF GAMING B650-PLUS WIFI",
+        "razones": [
+          "Tiene 3 ranuras M.2 contra 2: se pueden agregar más SSD NVMe sin depender de los puertos SATA, que son mucho más lentos.",
+          "Una de sus ranuras M.2 es PCIe 5.0, así que ya soporta los SSD más rápidos que vayan saliendo; la MSI se queda en PCIe 4.0.",
+          "Por unos Q200 más gana capacidad de expansión; la MSI solo es mejor si el Wi-Fi 6E (banda de 6 GHz) es prioridad."
+        ]
+      }
+    }
+  ]
+}

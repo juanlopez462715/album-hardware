@@ -1,0 +1,66 @@
+{
+  "categoria": "tarjetas-graficas",
+  "nombre": "Tarjeta gráfica (GPU)",
+  "grupo": "interno",
+  "orden": 7,
+  "descripcion": "Procesador especializado en cálculo paralelo: dibuja los gráficos y acelera video e inteligencia artificial.",
+  "comparaciones": [
+    {
+      "id": "gpu-16gb-gama-media",
+      "titulo": "Tarjetas gráficas de 16 GB para 1080p y 1440p",
+      "descripcion": "Especificaciones de referencia del chip; cada ensambladora (ASUS, MSI, Sapphire, etc.) puede variar un poco las frecuencias.",
+      "productos": [
+        {
+          "marca": "NVIDIA",
+          "modelo": "GeForce RTX 5060 Ti 16 GB",
+          "precioGTQ": 4199,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/tarjetas-graficas/nvidia-rtx-5060-ti-16gb.jpg",
+          "specs": [
+            { "nombre": "Arquitectura", "valor": "Blackwell", "mejor": null },
+            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Tipo de memoria", "valor": "GDDR7", "mejor": null },
+            { "nombre": "Bus de memoria", "valor": 128, "unidad": "bits", "mejor": "mayor" },
+            { "nombre": "Ancho de banda", "valor": 448, "unidad": "GB/s", "mejor": "mayor" },
+            { "nombre": "Frecuencia boost", "valor": 2572, "unidad": "MHz", "mejor": "mayor" },
+            { "nombre": "Consumo de la tarjeta", "valor": 180, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Interfaz", "valor": "PCIe 5.0 x8", "mejor": null },
+            { "nombre": "Escalado con IA", "valor": "DLSS 4", "mejor": null }
+          ]
+        },
+        {
+          "marca": "AMD",
+          "modelo": "Radeon RX 9060 XT 16 GB",
+          "precioGTQ": 3499,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/tarjetas-graficas/amd-radeon-rx-9060-xt-16gb.jpg",
+          "specs": [
+            { "nombre": "Arquitectura", "valor": "RDNA 4", "mejor": null },
+            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Tipo de memoria", "valor": "GDDR6", "mejor": null },
+            { "nombre": "Bus de memoria", "valor": 128, "unidad": "bits", "mejor": "mayor" },
+            { "nombre": "Ancho de banda", "valor": 320, "unidad": "GB/s", "mejor": "mayor" },
+            { "nombre": "Frecuencia boost", "valor": 3130, "unidad": "MHz", "mejor": "mayor" },
+            { "nombre": "Consumo de la tarjeta", "valor": 160, "unidad": "W", "mejor": "menor" },
+            { "nombre": "Interfaz", "valor": "PCIe 5.0 x16", "mejor": null },
+            { "nombre": "Escalado con IA", "valor": "FSR 4", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Radeon RX 9060 XT 16 GB",
+        "razones": [
+          "Ofrece los mismos 16 GB de memoria de video por unos Q700 menos: más rendimiento por cada quetzal.",
+          "Consume 160 W contra 180 W, así que alcanza con una fuente de 550 a 600 W.",
+          "Usa los 16 carriles de PCIe (x16); la RTX usa solo 8 (x8) y puede perder rendimiento si se instala en una tarjeta madre antigua con PCIe 3.0."
+        ]
+      }
+    }
+  ]
+}

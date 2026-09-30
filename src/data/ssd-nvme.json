@@ -1,0 +1,62 @@
+{
+  "categoria": "ssd-nvme",
+  "nombre": "SSD NVMe",
+  "grupo": "interno",
+  "orden": 5,
+  "descripcion": "Almacenamiento flash conectado directo al bus PCI Express: varias veces más rápido que un SSD SATA.",
+  "comparaciones": [
+    {
+      "id": "ssd-nvme-gen4-1tb",
+      "titulo": "SSD NVMe PCIe 4.0 de 1 TB",
+      "descripcion": "Dos de los SSD más rápidos de la generación PCIe 4.0.",
+      "productos": [
+        {
+          "marca": "Samsung",
+          "modelo": "990 PRO 1 TB",
+          "precioGTQ": 1199,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/ssd-nvme/samsung-990-pro-1tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "PCIe 4.0 x4, NVMe", "mejor": null },
+            { "nombre": "Formato", "valor": "M.2 2280", "mejor": null },
+            { "nombre": "Lectura secuencial", "valor": 7450, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Escritura secuencial", "valor": 6900, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "Western Digital",
+          "modelo": "WD_BLACK SN850X 1 TB",
+          "precioGTQ": 1049,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/ssd-nvme/wd-black-sn850x-1tb.jpg",
+          "specs": [
+            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Interfaz", "valor": "PCIe 4.0 x4, NVMe", "mejor": null },
+            { "nombre": "Formato", "valor": "M.2 2280", "mejor": null },
+            { "nombre": "Lectura secuencial", "valor": 7300, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Escritura secuencial", "valor": 6300, "unidad": "MB/s", "mejor": "mayor" },
+            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
+            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "990 PRO 1 TB",
+        "razones": [
+          "Escribe hasta 6900 MB/s contra 6300 MB/s: cerca de un 10 % más rápido al instalar juegos o copiar archivos grandes.",
+          "Lee a 7450 MB/s, prácticamente el máximo que permite un enlace PCIe 4.0 x4.",
+          "Misma durabilidad y garantía que el WD; la diferencia de unos Q150 se paga con rendimiento sostenido."
+        ]
+      }
+    }
+  ]
+}

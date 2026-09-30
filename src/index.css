@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+
+/* El modo oscuro se activa con la clase "dark" en <html> (ver index.html y src/lib/tema.ts). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Colores del tema. Cada nombre tiene un valor para modo claro y otro para oscuro. */
+:root {
+  --fondo: #f5f2eb;
+  --superficie: #ffffff;
+  --superficie-2: #f0ece3;
+  --texto: #1c1b19;
+  --suave: #5f5b53;
+  --borde: #e2ddd2;
+  --acento: #3730a3;
+  --acento-texto: #ffffff;
+  --gana-fondo: #d1fae5;
+  --gana-texto: #065f46;
+  color-scheme: light;
+}
+
+.dark {
+  --fondo: #0f1115;
+  --superficie: #171a21;
+  --superficie-2: #1e222b;
+  --texto: #ecebe7;
+  --suave: #a09d96;
+  --borde: #2a2f3a;
+  --acento: #a5b4fc;
+  --acento-texto: #111318;
+  --gana-fondo: rgb(16 185 129 / 0.18);
+  --gana-texto: #6ee7b7;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-fondo: var(--fondo);
+  --color-superficie: var(--superficie);
+  --color-superficie-2: var(--superficie-2);
+  --color-texto: var(--texto);
+  --color-suave: var(--suave);
+  --color-borde: var(--borde);
+  --color-acento: var(--acento);
+  --color-acento-texto: var(--acento-texto);
+  --color-gana-fondo: var(--gana-fondo);
+  --color-gana-texto: var(--gana-texto);
+}
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+
+  --animate-aparecer: aparecer 0.25s ease-out;
+
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--texto);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}

@@ -1,0 +1,62 @@
+{
+  "categoria": "impresoras",
+  "nombre": "Impresora",
+  "grupo": "externo",
+  "orden": 8,
+  "descripcion": "Dispositivo de salida que pasa documentos digitales a papel.",
+  "comparaciones": [
+    {
+      "id": "multifuncional-tanque-tinta",
+      "titulo": "Multifuncionales de tanque de tinta",
+      "descripcion": "Imprimen, copian y escanean; se recargan con botellas de tinta en lugar de cartuchos.",
+      "productos": [
+        {
+          "marca": "Epson",
+          "modelo": "EcoTank L3250",
+          "precioGTQ": 1499,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/impresoras/epson-ecotank-l3250.jpg",
+          "specs": [
+            { "nombre": "Funciones", "valor": "Imprime, copia y escanea", "mejor": null },
+            { "nombre": "Velocidad ISO en negro", "valor": 10, "unidad": "ppm", "mejor": "mayor" },
+            { "nombre": "Velocidad ISO en color", "valor": 5, "unidad": "ppm", "mejor": "mayor" },
+            { "nombre": "Rendimiento de tinta negra incluida", "valor": 4500, "unidad": "páginas", "mejor": "mayor" },
+            { "nombre": "Rendimiento de tinta de color incluida", "valor": 7500, "unidad": "páginas", "mejor": "mayor" },
+            { "nombre": "Resolución máxima", "valor": "5760 × 1440 dpi", "mejor": null },
+            { "nombre": "Conectividad", "valor": "USB, Wi-Fi y Wi-Fi Direct", "mejor": null }
+          ]
+        },
+        {
+          "marca": "HP",
+          "modelo": "Smart Tank 580",
+          "precioGTQ": 1599,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/impresoras/hp-smart-tank-580.jpg",
+          "specs": [
+            { "nombre": "Funciones", "valor": "Imprime, copia y escanea", "mejor": null },
+            { "nombre": "Velocidad ISO en negro", "valor": 12, "unidad": "ppm", "mejor": "mayor" },
+            { "nombre": "Velocidad ISO en color", "valor": 5, "unidad": "ppm", "mejor": "mayor" },
+            { "nombre": "Rendimiento de tinta negra incluida", "valor": 6000, "unidad": "páginas", "mejor": "mayor" },
+            { "nombre": "Rendimiento de tinta de color incluida", "valor": 8000, "unidad": "páginas", "mejor": "mayor" },
+            { "nombre": "Resolución máxima", "valor": "4800 × 1200 dpi", "mejor": null },
+            { "nombre": "Conectividad", "valor": "USB, Wi-Fi, Wi-Fi Direct y Bluetooth", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Smart Tank 580",
+        "razones": [
+          "Imprime más rápido en negro (12 contra 10 páginas por minuto según la norma ISO), que es lo que más se imprime en tareas y trabajos.",
+          "Sus botellas incluidas rinden más: hasta 6000 páginas en negro contra 4500, y 8000 en color contra 7500.",
+          "Agrega Bluetooth para configurarla desde el celular, por unos Q100 más."
+        ]
+      }
+    }
+  ]
+}

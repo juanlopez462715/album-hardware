@@ -1,0 +1,61 @@
+{
+  "categoria": "mouse",
+  "nombre": "Mouse",
+  "grupo": "externo",
+  "orden": 3,
+  "descripcion": "Dispositivo apuntador: un sensor óptico traduce el movimiento de la mano en movimiento del cursor.",
+  "comparaciones": [
+    {
+      "id": "mouse-gaming-economico",
+      "titulo": "Mouse gaming económicos con cable",
+      "descripcion": "Los dos modelos de entrada más populares de sus marcas.",
+      "productos": [
+        {
+          "marca": "Logitech",
+          "modelo": "G203 LIGHTSYNC",
+          "precioGTQ": 229,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/mouse/logitech-g203-lightsync.jpg",
+          "specs": [
+            { "nombre": "Sensor", "valor": "Óptico", "mejor": null },
+            { "nombre": "Resolución máxima", "valor": 8000, "unidad": "DPI", "mejor": "mayor" },
+            { "nombre": "Botones programables", "valor": 6, "mejor": "mayor" },
+            { "nombre": "Peso", "valor": 85, "unidad": "g", "mejor": "menor" },
+            { "nombre": "Tasa de sondeo", "valor": 1000, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Forma", "valor": "Simétrica", "mejor": null },
+            { "nombre": "Iluminación", "valor": "RGB (3 zonas)", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Razer",
+          "modelo": "DeathAdder Essential",
+          "precioGTQ": 259,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/mouse/razer-deathadder-essential.jpg",
+          "specs": [
+            { "nombre": "Sensor", "valor": "Óptico", "mejor": null },
+            { "nombre": "Resolución máxima", "valor": 6400, "unidad": "DPI", "mejor": "mayor" },
+            { "nombre": "Botones programables", "valor": 5, "mejor": "mayor" },
+            { "nombre": "Peso", "valor": 96, "unidad": "g", "mejor": "menor" },
+            { "nombre": "Tasa de sondeo", "valor": 1000, "unidad": "Hz", "mejor": "mayor" },
+            { "nombre": "Forma", "valor": "Ergonómica (diestros)", "mejor": null },
+            { "nombre": "Iluminación", "valor": "Verde, un solo color", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "G203 LIGHTSYNC",
+        "razones": [
+          "Gana en todas las características comparables: 8000 DPI contra 6400, 6 botones contra 5 y 11 g menos de peso.",
+          "Además es unos Q30 más barato y su forma simétrica sirve también para zurdos."
+        ]
+      }
+    }
+  ]
+}

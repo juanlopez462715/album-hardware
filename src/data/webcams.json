@@ -1,0 +1,62 @@
+{
+  "categoria": "webcams",
+  "nombre": "Webcam",
+  "grupo": "externo",
+  "orden": 5,
+  "descripcion": "Cámara de video que se conecta por USB para videollamadas, clases virtuales y transmisiones.",
+  "comparaciones": [
+    {
+      "id": "webcam-full-hd",
+      "titulo": "Webcams Full HD para clases y videollamadas",
+      "descripcion": "Las dos graban en 1080p a 30 cuadros por segundo; cambian los extras.",
+      "productos": [
+        {
+          "marca": "Logitech",
+          "modelo": "C920s Pro HD",
+          "precioGTQ": 599,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/webcams/logitech-c920s-pro-hd.jpg",
+          "specs": [
+            { "nombre": "Resolución máxima", "valor": "1080p a 30 fps", "mejor": null },
+            { "nombre": "Cuadros por segundo en 720p", "valor": 30, "unidad": "fps", "mejor": "mayor" },
+            { "nombre": "Campo de visión", "valor": 78, "unidad": "°", "mejor": "mayor" },
+            { "nombre": "Micrófonos", "valor": 2, "mejor": "mayor" },
+            { "nombre": "Enfoque", "valor": "Automático", "mejor": null },
+            { "nombre": "Tapa de privacidad", "valor": "Sí", "mejor": null },
+            { "nombre": "Luz integrada", "valor": "No", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Razer",
+          "modelo": "Kiyo",
+          "precioGTQ": 799,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/webcams/razer-kiyo.jpg",
+          "specs": [
+            { "nombre": "Resolución máxima", "valor": "1080p a 30 fps", "mejor": null },
+            { "nombre": "Cuadros por segundo en 720p", "valor": 60, "unidad": "fps", "mejor": "mayor" },
+            { "nombre": "Campo de visión", "valor": 81.6, "unidad": "°", "mejor": "mayor" },
+            { "nombre": "Micrófonos", "valor": 1, "mejor": "mayor" },
+            { "nombre": "Enfoque", "valor": "Automático", "mejor": null },
+            { "nombre": "Tapa de privacidad", "valor": "No", "mejor": null },
+            { "nombre": "Luz integrada", "valor": "Aro de luz regulable", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "C920s Pro HD",
+        "razones": [
+          "Tiene dos micrófonos (estéreo) contra uno: capta mejor la voz en clases y videollamadas sin audífonos.",
+          "Incluye tapa de privacidad y cuesta unos Q200 menos.",
+          "La Kiyo solo conviene si se transmite en vivo o el cuarto es oscuro, gracias a su aro de luz y a los 60 fps en 720p."
+        ]
+      }
+    }
+  ]
+}

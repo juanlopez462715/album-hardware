@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/src/data/*.json"],
+      "url": "./esquema/categoria.schema.json"
+    }
+  ]
+}

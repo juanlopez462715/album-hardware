@@ -1,0 +1,62 @@
+{
+  "categoria": "ram",
+  "nombre": "Memoria RAM",
+  "grupo": "interno",
+  "orden": 3,
+  "descripcion": "Memoria de trabajo volátil: guarda los datos que el procesador está usando en este momento.",
+  "comparaciones": [
+    {
+      "id": "ram-ddr5-32gb-6000",
+      "titulo": "Kits DDR5 de 32 GB a 6000 MT/s",
+      "descripcion": "Misma capacidad y misma velocidad: la diferencia está en la latencia.",
+      "productos": [
+        {
+          "marca": "Kingston",
+          "modelo": "FURY Beast 32 GB (2×16 GB) DDR5-6000 CL36",
+          "precioGTQ": 2299,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/ram/kingston-fury-beast-ddr5-6000-cl36.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "DDR5", "mejor": null },
+            { "nombre": "Capacidad total", "valor": 32, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Módulos", "valor": "2 × 16 GB", "mejor": null },
+            { "nombre": "Velocidad", "valor": 6000, "unidad": "MT/s", "mejor": "mayor" },
+            { "nombre": "Latencia CAS (CL)", "valor": 36, "unidad": "ciclos", "mejor": "menor" },
+            { "nombre": "Latencia real", "valor": 12, "unidad": "ns", "mejor": "menor" },
+            { "nombre": "Voltaje", "valor": 1.35, "unidad": "V", "mejor": "menor" }
+          ]
+        },
+        {
+          "marca": "Corsair",
+          "modelo": "Vengeance 32 GB (2×16 GB) DDR5-6000 CL30",
+          "precioGTQ": 2549,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/ram/corsair-vengeance-ddr5-6000-cl30.jpg",
+          "specs": [
+            { "nombre": "Tipo", "valor": "DDR5", "mejor": null },
+            { "nombre": "Capacidad total", "valor": 32, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Módulos", "valor": "2 × 16 GB", "mejor": null },
+            { "nombre": "Velocidad", "valor": 6000, "unidad": "MT/s", "mejor": "mayor" },
+            { "nombre": "Latencia CAS (CL)", "valor": 30, "unidad": "ciclos", "mejor": "menor" },
+            { "nombre": "Latencia real", "valor": 10, "unidad": "ns", "mejor": "menor" },
+            { "nombre": "Voltaje", "valor": 1.4, "unidad": "V", "mejor": "menor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Vengeance 32 GB (2×16 GB) DDR5-6000 CL30",
+        "razones": [
+          "Con CL30 su latencia real es de 10 ns contra 12 ns del Kingston: responde cerca de un 17 % más rápido cada vez que el procesador le pide un dato.",
+          "DDR5-6000 con CL30 es la combinación que AMD recomienda para los Ryzen de socket AM5, así que aprovecha al máximo esas plataformas.",
+          "Cuesta unos Q250 más: una diferencia pequeña frente a la mejora en latencia, que se nota sobre todo en juegos."
+        ]
+      }
+    }
+  ]
+}

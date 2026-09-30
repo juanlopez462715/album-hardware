@@ -1,0 +1,245 @@
+{
+  "title": "Categoría del Álbum de Hardware",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "categoria": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Igual al nombre del archivo sin \".json\". Ej. \"ram\""
+    },
+    "nombre": {
+      "type": "string",
+      "pattern": "\\S",
+      "description": "Nombre que se muestra en la página. Ej. \"Memoria RAM\""
+    },
+    "grupo": {
+      "type": "string",
+      "enum": [
+        "interno",
+        "externo",
+        "redes",
+        "por-gama"
+      ],
+      "description": "Sección del índice donde aparece la categoría"
+    },
+    "orden": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991,
+      "description": "Posición dentro de su grupo (1, 2, 3…)"
+    },
+    "descripcion": {
+      "type": "string",
+      "pattern": "\\S",
+      "description": "Una línea que explica qué es el componente"
+    },
+    "comparaciones": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Identificador único en todo el álbum. Ej. \"ram-ddr5-32gb\""
+          },
+          "gama": {
+            "description": "Solo en categorías del grupo \"por-gama\"",
+            "type": "string",
+            "enum": [
+              "baja",
+              "media",
+              "alta"
+            ]
+          },
+          "titulo": {
+            "type": "string",
+            "pattern": "\\S",
+            "description": "Ej. \"Kits DDR5 de 32 GB a 6000 MT/s\""
+          },
+          "descripcion": {
+            "description": "Contexto breve de la comparación (opcional)",
+            "type": "string"
+          },
+          "productos": {
+            "minItems": 2,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "marca": {
+                  "type": "string",
+                  "pattern": "\\S",
+                  "description": "Ej. \"Kingston\""
+                },
+                "modelo": {
+                  "type": "string",
+                  "pattern": "\\S",
+                  "description": "Nombre comercial completo. Ej. \"FURY Beast 32 GB DDR5-6000\""
+                },
+                "precioGTQ": {
+                  "type": "number",
+                  "exclusiveMinimum": 0,
+                  "description": "Precio en quetzales, sin \"Q\" ni comas. Ej. 1299.99"
+                },
+                "tienda": {
+                  "type": "string",
+                  "description": "Tienda donde se consultó el precio. Ej. \"Intelaf\""
+                },
+                "fechaConsulta": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "const": ""
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    }
+                  ],
+                  "description": "Día en que se revisó el precio, formato AAAA-MM-DD. Vacío si aún no se verifica"
+                },
+                "urlFuente": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "const": ""
+                    },
+                    {
+                      "type": "string",
+                      "format": "uri"
+                    }
+                  ],
+                  "description": "Enlace a la página del producto en la tienda. Vacío si no se tiene"
+                },
+                "verificado": {
+                  "type": "boolean",
+                  "description": "true cuando alguien confirmó el precio en la tienda"
+                },
+                "imagen": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "const": ""
+                    },
+                    {
+                      "type": "string",
+                      "pattern": "^img\\/[a-z0-9-]+\\/[^/\\s]+\\.(jpe?g|png|webp|avif|svg)$"
+                    }
+                  ],
+                  "description": "Ruta dentro de public/. Ej. \"img/ram/kingston-fury-beast.jpg\". Vacío para usar el placeholder"
+                },
+                "specs": {
+                  "minItems": 1,
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "nombre": {
+                        "type": "string",
+                        "pattern": "\\S",
+                        "description": "Nombre de la característica. Ej. \"Capacidad\""
+                      },
+                      "valor": {
+                        "anyOf": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "string",
+                            "pattern": "\\S"
+                          }
+                        ],
+                        "description": "Número (sin comillas) si se compara; texto si solo se muestra. Ej. 6000 o \"DDR5\""
+                      },
+                      "unidad": {
+                        "description": "Unidad que se muestra junto al número. Ej. \"GB\", \"MHz\", \"W\"",
+                        "type": "string"
+                      },
+                      "mejor": {
+                        "anyOf": [
+                          {
+                            "type": "string",
+                            "enum": [
+                              "mayor",
+                              "menor"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ],
+                        "description": "\"mayor\" si gana el número más alto, \"menor\" si gana el más bajo, null si no se compara"
+                      }
+                    },
+                    "required": [
+                      "nombre",
+                      "valor",
+                      "mejor"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "marca",
+                "modelo",
+                "precioGTQ",
+                "tienda",
+                "fechaConsulta",
+                "urlFuente",
+                "verificado",
+                "imagen",
+                "specs"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "recomendacion": {
+            "type": "object",
+            "properties": {
+              "productoGanador": {
+                "type": "string",
+                "pattern": "\\S",
+                "description": "Copia exacta del \"modelo\" del producto que recomiendan"
+              },
+              "razones": {
+                "minItems": 2,
+                "maxItems": 3,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "\\S"
+                },
+                "description": "De 2 a 3 razones concretas"
+              }
+            },
+            "required": [
+              "productoGanador",
+              "razones"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "titulo",
+          "productos",
+          "recomendacion"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "categoria",
+    "nombre",
+    "grupo",
+    "orden",
+    "descripcion",
+    "comparaciones"
+  ],
+  "additionalProperties": false
+}

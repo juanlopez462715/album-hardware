@@ -1,0 +1,60 @@
+{
+  "categoria": "teclados",
+  "nombre": "Teclado",
+  "grupo": "externo",
+  "orden": 2,
+  "descripcion": "Dispositivo de entrada principal: convierte cada tecla presionada en un código que interpreta la computadora.",
+  "comparaciones": [
+    {
+      "id": "teclado-mecanico-tkl",
+      "titulo": "Teclados mecánicos TKL (sin teclado numérico)",
+      "descripcion": "Formato compacto de 87 teclas que deja más espacio para el mouse.",
+      "productos": [
+        {
+          "marca": "HyperX",
+          "modelo": "Alloy Origins Core",
+          "precioGTQ": 649,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/teclados/hyperx-alloy-origins-core.jpg",
+          "specs": [
+            { "nombre": "Formato", "valor": "TKL (87 teclas)", "mejor": null },
+            { "nombre": "Switches", "valor": "HyperX Red (lineales)", "mejor": null },
+            { "nombre": "Vida útil de switches", "valor": 80, "unidad": "millones de pulsaciones", "mejor": "mayor" },
+            { "nombre": "Cuerpo", "valor": "Aluminio", "mejor": null },
+            { "nombre": "Cable", "valor": "USB-C desmontable", "mejor": null },
+            { "nombre": "Iluminación", "valor": "RGB por tecla", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Redragon",
+          "modelo": "K552 Kumara RGB",
+          "precioGTQ": 299,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/teclados/redragon-k552-kumara-rgb.jpg",
+          "specs": [
+            { "nombre": "Formato", "valor": "TKL (87 teclas)", "mejor": null },
+            { "nombre": "Switches", "valor": "Outemu Blue (clic audible)", "mejor": null },
+            { "nombre": "Vida útil de switches", "valor": 50, "unidad": "millones de pulsaciones", "mejor": "mayor" },
+            { "nombre": "Cuerpo", "valor": "Placa metálica con base plástica", "mejor": null },
+            { "nombre": "Cable", "valor": "Fijo (USB-A)", "mejor": null },
+            { "nombre": "Iluminación", "valor": "RGB", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "Alloy Origins Core",
+        "razones": [
+          "Sus switches duran 80 millones de pulsaciones, 60 % más que los 50 millones del Redragon.",
+          "Cuerpo de aluminio y cable USB-C desmontable: si el cable se daña (la falla más común), se cambia el cable y no todo el teclado.",
+          "Cuesta más del doble; si el presupuesto es muy ajustado, el K552 cumple con lo esencial de un teclado mecánico."
+        ]
+      }
+    }
+  ]
+}

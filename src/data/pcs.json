@@ -1,0 +1,163 @@
+{
+  "categoria": "pcs",
+  "nombre": "PC completa",
+  "grupo": "por-gama",
+  "orden": 2,
+  "descripcion": "Computadoras de escritorio listas para usar, comparadas por pares en cada gama.",
+  "comparaciones": [
+    {
+      "id": "pc-gama-baja",
+      "gama": "baja",
+      "titulo": "PCs de escritorio para oficina y estudio",
+      "descripcion": "Configuraciones de ejemplo; en tienda varían según el modelo exacto (revisen el número de parte).",
+      "productos": [
+        {
+          "marca": "HP",
+          "modelo": "Pro Tower 290 G9 (Core i3-13100, 8 GB, SSD 512 GB)",
+          "precioGTQ": 4499,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/pcs/hp-pro-tower-290-g9.jpg",
+          "specs": [
+            { "nombre": "Procesador", "valor": "Intel Core i3-13100", "mejor": null },
+            { "nombre": "Núcleos", "valor": 4, "mejor": "mayor" },
+            { "nombre": "Hilos", "valor": 8, "mejor": "mayor" },
+            { "nombre": "RAM", "valor": 8, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento SSD", "valor": 512, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Gráficos", "valor": "Intel UHD 730 (integrados)", "mejor": null }
+          ]
+        },
+        {
+          "marca": "Lenovo",
+          "modelo": "ThinkCentre neo 50s Gen 4 (Core i5-13400, 8 GB, SSD 512 GB)",
+          "precioGTQ": 5699,
+          "tienda": "Click",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/pcs/lenovo-thinkcentre-neo-50s-gen-4.jpg",
+          "specs": [
+            { "nombre": "Procesador", "valor": "Intel Core i5-13400", "mejor": null },
+            { "nombre": "Núcleos", "valor": 10, "mejor": "mayor" },
+            { "nombre": "Hilos", "valor": 16, "mejor": "mayor" },
+            { "nombre": "RAM", "valor": 8, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento SSD", "valor": 512, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Gráficos", "valor": "Intel UHD 730 (integrados)", "mejor": null }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "ThinkCentre neo 50s Gen 4 (Core i5-13400, 8 GB, SSD 512 GB)",
+        "razones": [
+          "Su Core i5-13400 tiene 10 núcleos y 16 hilos contra 4 y 8 del i3: más del doble de capacidad para trabajar con varios programas abiertos.",
+          "Con la misma RAM y el mismo SSD, los unos Q1,200 extra se van completos a un procesador que alarga varios años la vida útil del equipo."
+        ]
+      }
+    },
+    {
+      "id": "pc-gama-media",
+      "gama": "media",
+      "titulo": "PCs gamer de gama media",
+      "descripcion": "Mismo procesador y misma tarjeta gráfica: la diferencia está en el almacenamiento y el precio.",
+      "productos": [
+        {
+          "marca": "Lenovo",
+          "modelo": "LOQ Tower (Core i5-14400F, RTX 5060, 16 GB, SSD 1 TB)",
+          "precioGTQ": 10499,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/pcs/lenovo-loq-tower.jpg",
+          "specs": [
+            { "nombre": "Procesador", "valor": "Intel Core i5-14400F", "mejor": null },
+            { "nombre": "Núcleos", "valor": 10, "mejor": "mayor" },
+            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5060", "mejor": null },
+            { "nombre": "Memoria de video", "valor": 8, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "RAM", "valor": 16, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento SSD", "valor": 1000, "unidad": "GB", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "HP",
+          "modelo": "Victus 15L (Core i5-14400F, RTX 5060, 16 GB, SSD 512 GB)",
+          "precioGTQ": 10299,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/pcs/hp-victus-15l.jpg",
+          "specs": [
+            { "nombre": "Procesador", "valor": "Intel Core i5-14400F", "mejor": null },
+            { "nombre": "Núcleos", "valor": 10, "mejor": "mayor" },
+            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5060", "mejor": null },
+            { "nombre": "Memoria de video", "valor": 8, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "RAM", "valor": 16, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento SSD", "valor": 512, "unidad": "GB", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "LOQ Tower (Core i5-14400F, RTX 5060, 16 GB, SSD 1 TB)",
+        "razones": [
+          "Rinde igual en juegos (mismo procesador y misma RTX 5060), pero trae el doble de almacenamiento: 1 TB contra 512 GB.",
+          "Un juego actual ocupa entre 50 y 150 GB; con 512 GB el disco se llena rápido. Por unos Q200 más, el TB extra evita comprar otro SSD después."
+        ]
+      }
+    },
+    {
+      "id": "pc-gama-alta",
+      "gama": "alta",
+      "titulo": "PCs gamer de gama alta",
+      "descripcion": "Configuraciones de ejemplo con procesadores Intel Core Ultra y tarjetas RTX serie 50.",
+      "productos": [
+        {
+          "marca": "HP",
+          "modelo": "OMEN 35L (Core Ultra 7 265K, RTX 5070 Ti, 32 GB, SSD 1 TB)",
+          "precioGTQ": 21999,
+          "tienda": "Max",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/pcs/hp-omen-35l.jpg",
+          "specs": [
+            { "nombre": "Procesador", "valor": "Intel Core Ultra 7 265K", "mejor": null },
+            { "nombre": "Núcleos", "valor": 20, "mejor": "mayor" },
+            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5070 Ti", "mejor": null },
+            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "RAM", "valor": 32, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento SSD", "valor": 1000, "unidad": "GB", "mejor": "mayor" }
+          ]
+        },
+        {
+          "marca": "Lenovo",
+          "modelo": "Legion Tower 7i Gen 10 (Core Ultra 9 285K, RTX 5080, 32 GB, SSD 2 TB)",
+          "precioGTQ": 29999,
+          "tienda": "Intelaf",
+          "fechaConsulta": "",
+          "urlFuente": "",
+          "verificado": false,
+          "imagen": "img/pcs/lenovo-legion-tower-7i-gen-10.jpg",
+          "specs": [
+            { "nombre": "Procesador", "valor": "Intel Core Ultra 9 285K", "mejor": null },
+            { "nombre": "Núcleos", "valor": 24, "mejor": "mayor" },
+            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5080", "mejor": null },
+            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "RAM", "valor": 32, "unidad": "GB", "mejor": "mayor" },
+            { "nombre": "Almacenamiento SSD", "valor": 2000, "unidad": "GB", "mejor": "mayor" }
+          ]
+        }
+      ],
+      "recomendacion": {
+        "productoGanador": "OMEN 35L (Core Ultra 7 265K, RTX 5070 Ti, 32 GB, SSD 1 TB)",
+        "razones": [
+          "Cuesta unos Q8,000 menos, y la RTX 5070 Ti tiene los mismos 16 GB de memoria de video que la RTX 5080, con un rendimiento cercano en juegos a 1440p.",
+          "Los 20 núcleos del Core Ultra 7 sobran para jugar; los 4 núcleos extra del Ultra 9 solo se aprovechan en render 3D o edición de video profesional.",
+          "Con el dinero ahorrado se puede agregar un segundo SSD de 2 TB y todavía sobra."
+        ]
+      }
+    }
+  ]
+}
