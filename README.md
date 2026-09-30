@@ -51,10 +51,10 @@ Pensado para quien **solo va a editar JSON**. No necesitas saber React ni TypeSc
 
 ### 1. Crea tu rama
 
-Cada categoría se trabaja en su propia rama (ver [Convención de trabajo](#convención-de-trabajo)):
+Cada categoría se trabaja en su propia rama, que siempre sale de `develop` (ver [Convención de trabajo](#convención-de-trabajo)):
 
 ```bash
-git switch main
+git switch develop
 git pull
 git switch -c categoria/celulares
 ```
@@ -183,7 +183,7 @@ git commit -m "celulares: agrega comparación de gama media"
 git push -u origin categoria/celulares
 ```
 
-En GitHub aparecerá el botón **Compare & pull request**. Ábrelo, describe qué cambiaste y pide a tu compañero que lo revise. Antes de unirlo a `main`, quien revisa descarga la rama y corre `npm run validar`:
+En GitHub aparecerá el botón **Compare & pull request**. Ábrelo y **revisa que arriba diga `base: develop`** (si dice `base: main`, cámbialo). Describe qué cambiaste y pide a tu compañero que lo revise. Antes de unirlo a `develop`, quien revisa descarga la rama y corre `npm run validar`:
 
 ```bash
 git fetch
@@ -233,10 +233,25 @@ La página la agrega sola al índice.
 
 ## Convención de trabajo
 
+El repositorio tiene dos ramas fijas:
+
+| Rama | Para qué sirve |
+| --- | --- |
+| `main` | La versión estable, la que se presenta en clase. |
+| `develop` | Donde se juntan los cambios del equipo antes de pasar a `main`. |
+
+Los cambios siguen siempre este camino:
+
+```text
+categoria/<archivo>  ──PR──▶  develop  ──PR──▶  main
+```
+
 - **Una rama por categoría**, con el nombre `categoria/<archivo>`: `categoria/ram`, `categoria/celulares`, `categoria/routers`… Así cada persona toca archivos distintos y **no hay conflictos de Git**.
-- **Nadie trabaja directo en `main`.** Todo entra por **Pull Request a `main`**, revisado por el otro integrante.
-- Antes de crear una rama nueva, actualiza `main`: `git switch main && git pull`.
-- El PR solo se une cuando `npm run validar` pasa sin errores en esa rama (cuando la publicación automática esté activa, GitHub lo mostrará con ✅ en el PR).
+- Las ramas de trabajo **salen de `develop`**: antes de crear una, actualízala con `git switch develop && git pull`.
+- Cada rama entra por **Pull Request con `base: develop`**. Lo revisa y lo une el dueño del repositorio.
+- Cuando `develop` está estable (por ejemplo, antes de la defensa), el dueño abre un **Pull Request de `develop` a `main`** y lo une.
+- **Nadie trabaja directo en `develop` ni en `main`.**
+- Un PR solo se une cuando `npm run validar` pasa sin errores en esa rama (cuando la publicación automática esté activa, GitHub lo mostrará con ✅ en el PR).
 - Mensajes de commit cortos y claros, empezando por la categoría: `ram: verifica precios`, `routers: agrega imagen del AX55`.
 - Los cambios de código (carpetas `src/components/` y `src/lib/`) van en ramas aparte, por ejemplo `mejora/buscador`.
 

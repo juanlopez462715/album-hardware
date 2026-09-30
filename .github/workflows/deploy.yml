@@ -1,4 +1,4 @@
-# Construye el sitio en cada push y Pull Request a main.
+# Construye el sitio en cada push a main y en cada Pull Request a develop o main.
 # Solo publica en GitHub Pages cuando el cambio llega a main (no en los PR).
 name: Publicar en GitHub Pages
 
@@ -6,7 +6,7 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
+    branches: [develop, main]
   workflow_dispatch:
 
 # Si llegan dos pushes seguidos, el segundo espera a que termine el primero.
