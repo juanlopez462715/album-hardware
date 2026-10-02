@@ -14,38 +14,100 @@
           "marca": "Corsair",
           "modelo": "RM750e (ATX 3.1)",
           "precioGTQ": 1049,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Corsair%20RM750e%20(ATX%203.1)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/fuentes-poder/corsair-rm750e.jpg",
+          "imagen": "img/fuentes-poder/corsair-rm750e-atx-3-1-fe8f53c1.jpg",
           "specs": [
-            { "nombre": "Potencia", "valor": 750, "unidad": "W", "mejor": "mayor" },
-            { "nombre": "Certificación", "valor": "80 PLUS Gold", "mejor": null },
-            { "nombre": "Cables", "valor": "Totalmente modulares", "mejor": null },
-            { "nombre": "Norma", "valor": "ATX 3.1", "mejor": null },
-            { "nombre": "Conector para GPU", "valor": "12V-2x6", "mejor": null },
-            { "nombre": "Ventilador", "valor": 120, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Garantía", "valor": 7, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Potencia",
+              "valor": 750,
+              "unidad": "W",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Certificación",
+              "valor": "80 PLUS Gold",
+              "mejor": null
+            },
+            {
+              "nombre": "Cables",
+              "valor": "Totalmente modulares",
+              "mejor": null
+            },
+            {
+              "nombre": "Norma",
+              "valor": "ATX 3.1",
+              "mejor": null
+            },
+            {
+              "nombre": "Conector para GPU",
+              "valor": "12V-2x6",
+              "mejor": null
+            },
+            {
+              "nombre": "Ventilador",
+              "valor": 120,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 7,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "Seasonic",
           "modelo": "FOCUS GX-750 ATX 3",
           "precioGTQ": 1199,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Seasonic%20FOCUS%20GX-750%20ATX%203%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/fuentes-poder/seasonic-focus-gx-750.jpg",
+          "imagen": "img/fuentes-poder/seasonic-focus-gx-750-atx-3-d52717e5.webp",
           "specs": [
-            { "nombre": "Potencia", "valor": 750, "unidad": "W", "mejor": "mayor" },
-            { "nombre": "Certificación", "valor": "80 PLUS Gold", "mejor": null },
-            { "nombre": "Cables", "valor": "Totalmente modulares", "mejor": null },
-            { "nombre": "Norma", "valor": "ATX 3.0", "mejor": null },
-            { "nombre": "Conector para GPU", "valor": "12VHPWR", "mejor": null },
-            { "nombre": "Ventilador", "valor": 120, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Garantía", "valor": 10, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Potencia",
+              "valor": 750,
+              "unidad": "W",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Certificación",
+              "valor": "80 PLUS Gold",
+              "mejor": null
+            },
+            {
+              "nombre": "Cables",
+              "valor": "Totalmente modulares",
+              "mejor": null
+            },
+            {
+              "nombre": "Norma",
+              "valor": "ATX 3.0",
+              "mejor": null
+            },
+            {
+              "nombre": "Conector para GPU",
+              "valor": "12VHPWR",
+              "mejor": null
+            },
+            {
+              "nombre": "Ventilador",
+              "valor": 120,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 10,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         }
       ],

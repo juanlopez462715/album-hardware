@@ -14,36 +14,86 @@
           "marca": "HyperX",
           "modelo": "Alloy Origins Core",
           "precioGTQ": 649,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20HyperX%20Alloy%20Origins%20Core%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/teclados/hyperx-alloy-origins-core.jpg",
+          "imagen": "img/teclados/hyperx-alloy-origins-core-5f1bd0e8.webp",
           "specs": [
-            { "nombre": "Formato", "valor": "TKL (87 teclas)", "mejor": null },
-            { "nombre": "Switches", "valor": "HyperX Red (lineales)", "mejor": null },
-            { "nombre": "Vida útil de switches", "valor": 80, "unidad": "millones de pulsaciones", "mejor": "mayor" },
-            { "nombre": "Cuerpo", "valor": "Aluminio", "mejor": null },
-            { "nombre": "Cable", "valor": "USB-C desmontable", "mejor": null },
-            { "nombre": "Iluminación", "valor": "RGB por tecla", "mejor": null }
+            {
+              "nombre": "Formato",
+              "valor": "TKL (87 teclas)",
+              "mejor": null
+            },
+            {
+              "nombre": "Switches",
+              "valor": "HyperX Red (lineales)",
+              "mejor": null
+            },
+            {
+              "nombre": "Vida útil de switches",
+              "valor": 80,
+              "unidad": "millones de pulsaciones",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Cuerpo",
+              "valor": "Aluminio",
+              "mejor": null
+            },
+            {
+              "nombre": "Cable",
+              "valor": "USB-C desmontable",
+              "mejor": null
+            },
+            {
+              "nombre": "Iluminación",
+              "valor": "RGB por tecla",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Redragon",
           "modelo": "K552 Kumara RGB",
           "precioGTQ": 299,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Redragon%20K552%20Kumara%20RGB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/teclados/redragon-k552-kumara-rgb.jpg",
+          "imagen": "img/teclados/redragon-k552-kumara-rgb-51aec1aa.webp",
           "specs": [
-            { "nombre": "Formato", "valor": "TKL (87 teclas)", "mejor": null },
-            { "nombre": "Switches", "valor": "Outemu Blue (clic audible)", "mejor": null },
-            { "nombre": "Vida útil de switches", "valor": 50, "unidad": "millones de pulsaciones", "mejor": "mayor" },
-            { "nombre": "Cuerpo", "valor": "Placa metálica con base plástica", "mejor": null },
-            { "nombre": "Cable", "valor": "Fijo (USB-A)", "mejor": null },
-            { "nombre": "Iluminación", "valor": "RGB", "mejor": null }
+            {
+              "nombre": "Formato",
+              "valor": "TKL (87 teclas)",
+              "mejor": null
+            },
+            {
+              "nombre": "Switches",
+              "valor": "Outemu Blue (clic audible)",
+              "mejor": null
+            },
+            {
+              "nombre": "Vida útil de switches",
+              "valor": 50,
+              "unidad": "millones de pulsaciones",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Cuerpo",
+              "valor": "Placa metálica con base plástica",
+              "mejor": null
+            },
+            {
+              "nombre": "Cable",
+              "valor": "Fijo (USB-A)",
+              "mejor": null
+            },
+            {
+              "nombre": "Iluminación",
+              "valor": "RGB",
+              "mejor": null
+            }
           ]
         }
       ],

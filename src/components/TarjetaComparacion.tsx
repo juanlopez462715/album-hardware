@@ -29,8 +29,8 @@ export function TarjetaComparacion({ entrada, mostrarCategoria = false }: Props)
   const ganador = productos.find((p) => p.modelo === recomendacion.productoGanador) ?? productos[0];
 
   return (
-    <article id={comparacion.id} className="scroll-mt-24 overflow-hidden rounded-2xl border border-borde bg-superficie shadow-sm">
-      <header className="flex flex-wrap items-start justify-between gap-4 border-b border-borde px-5 py-5 sm:px-6">
+    <article id={comparacion.id} className="scroll-mt-24 overflow-hidden rounded-2xl border border-borde bg-superficie shadow-lg shadow-black/5 dark:shadow-black/25">
+      <header className="flex flex-wrap items-start justify-between gap-4 border-b border-borde bg-superficie-2/45 px-5 py-5 sm:px-6">
         <div className="min-w-0">
           {(mostrarCategoria || comparacion.gama) && (
             <div className="mb-1.5 flex flex-wrap items-center gap-2">
@@ -54,7 +54,10 @@ export function TarjetaComparacion({ entrada, mostrarCategoria = false }: Props)
         </a>
       </header>
 
-      <div className={`grid grid-cols-1 gap-4 p-5 pt-7 sm:p-6 sm:pt-7 ${COLUMNAS_PRODUCTOS[productos.length] ?? COLUMNAS_PRODUCTOS[3]}`}>
+      <div
+        id={`${comparacion.id}-productos`}
+        className={`scroll-mt-24 grid grid-cols-1 gap-4 bg-linear-to-b from-superficie-2/35 to-transparent p-5 pt-7 sm:p-6 sm:pt-7 ${COLUMNAS_PRODUCTOS[productos.length] ?? COLUMNAS_PRODUCTOS[3]}`}
+      >
         {productos.map((producto, i) => (
           <FichaProducto
             key={producto.modelo}
@@ -66,11 +69,11 @@ export function TarjetaComparacion({ entrada, mostrarCategoria = false }: Props)
         ))}
       </div>
 
-      <div className="px-3 sm:px-6">
+      <div id={`${comparacion.id}-tabla`} className="scroll-mt-24 px-3 sm:px-6">
         <TablaSpecs productos={productos} filas={filas} />
       </div>
 
-      <div className="p-5 sm:p-6">
+      <div id={`${comparacion.id}-recomendacion`} className="scroll-mt-24 p-5 sm:p-6">
         <Recomendacion producto={ganador} razones={recomendacion.razones} />
       </div>
     </article>

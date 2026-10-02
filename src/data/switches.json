@@ -14,38 +14,98 @@
           "marca": "TP-Link",
           "modelo": "TL-SG108E",
           "precioGTQ": 329,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20TP-Link%20TL-SG108E%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/switches/tp-link-tl-sg108e.jpg",
+          "imagen": "img/switches/tp-link-tl-sg108e-69ffa47f.jpg",
           "specs": [
-            { "nombre": "Puertos", "valor": 8, "mejor": "mayor" },
-            { "nombre": "Velocidad por puerto", "valor": 1000, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Capacidad de conmutación", "valor": 16, "unidad": "Gbps", "mejor": "mayor" },
-            { "nombre": "Gestión", "valor": "Easy Smart (página web)", "mejor": null },
-            { "nombre": "VLAN 802.1Q", "valor": "Sí", "mejor": null },
-            { "nombre": "Calidad de servicio (QoS)", "valor": "Sí", "mejor": null },
-            { "nombre": "Carcasa", "valor": "Metálica", "mejor": null }
+            {
+              "nombre": "Puertos",
+              "valor": 8,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad por puerto",
+              "valor": 1000,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Capacidad de conmutación",
+              "valor": 16,
+              "unidad": "Gbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Gestión",
+              "valor": "Easy Smart (página web)",
+              "mejor": null
+            },
+            {
+              "nombre": "VLAN 802.1Q",
+              "valor": "Sí",
+              "mejor": null
+            },
+            {
+              "nombre": "Calidad de servicio (QoS)",
+              "valor": "Sí",
+              "mejor": null
+            },
+            {
+              "nombre": "Carcasa",
+              "valor": "Metálica",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "NETGEAR",
           "modelo": "GS308E",
           "precioGTQ": 399,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20NETGEAR%20GS308E%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/switches/netgear-gs308e.jpg",
+          "imagen": "img/switches/netgear-gs308e-cac7e43e.jpg",
           "specs": [
-            { "nombre": "Puertos", "valor": 8, "mejor": "mayor" },
-            { "nombre": "Velocidad por puerto", "valor": 1000, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Capacidad de conmutación", "valor": 16, "unidad": "Gbps", "mejor": "mayor" },
-            { "nombre": "Gestión", "valor": "Plus (página web)", "mejor": null },
-            { "nombre": "VLAN 802.1Q", "valor": "Sí", "mejor": null },
-            { "nombre": "Calidad de servicio (QoS)", "valor": "Sí", "mejor": null },
-            { "nombre": "Carcasa", "valor": "Metálica", "mejor": null }
+            {
+              "nombre": "Puertos",
+              "valor": 8,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad por puerto",
+              "valor": 1000,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Capacidad de conmutación",
+              "valor": 16,
+              "unidad": "Gbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Gestión",
+              "valor": "Plus (página web)",
+              "mejor": null
+            },
+            {
+              "nombre": "VLAN 802.1Q",
+              "valor": "Sí",
+              "mejor": null
+            },
+            {
+              "nombre": "Calidad de servicio (QoS)",
+              "valor": "Sí",
+              "mejor": null
+            },
+            {
+              "nombre": "Carcasa",
+              "valor": "Metálica",
+              "mejor": null
+            }
           ]
         }
       ],

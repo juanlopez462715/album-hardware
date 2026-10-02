@@ -14,38 +14,100 @@
           "marca": "TP-Link",
           "modelo": "Archer AX55",
           "precioGTQ": 849,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20TP-Link%20Archer%20AX55%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/routers/tp-link-archer-ax55.jpg",
+          "imagen": "img/routers/tp-link-archer-ax55-359a32d1.png",
           "specs": [
-            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
-            { "nombre": "Velocidad total (clase)", "valor": 3000, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 5 GHz", "valor": 2402, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 2.4 GHz", "valor": 574, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Antenas externas", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Puertos LAN Gigabit", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Red en malla (mesh)", "valor": "OneMesh / EasyMesh", "mejor": null }
+            {
+              "nombre": "Estándar",
+              "valor": "Wi-Fi 6 (802.11ax)",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad total (clase)",
+              "valor": 3000,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 5 GHz",
+              "valor": 2402,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 2.4 GHz",
+              "valor": 574,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Antenas externas",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Puertos LAN Gigabit",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Red en malla (mesh)",
+              "valor": "OneMesh / EasyMesh",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "ASUS",
           "modelo": "RT-AX1800S",
           "precioGTQ": 699,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20ASUS%20RT-AX1800S%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/routers/asus-rt-ax1800s.jpg",
+          "imagen": "img/routers/asus-rt-ax1800s-90be23bd.jpg",
           "specs": [
-            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
-            { "nombre": "Velocidad total (clase)", "valor": 1800, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 5 GHz", "valor": 1201, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 2.4 GHz", "valor": 574, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Antenas externas", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Puertos LAN Gigabit", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Red en malla (mesh)", "valor": "AiMesh", "mejor": null }
+            {
+              "nombre": "Estándar",
+              "valor": "Wi-Fi 6 (802.11ax)",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad total (clase)",
+              "valor": 1800,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 5 GHz",
+              "valor": 1201,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 2.4 GHz",
+              "valor": 574,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Antenas externas",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Puertos LAN Gigabit",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Red en malla (mesh)",
+              "valor": "AiMesh",
+              "mejor": null
+            }
           ]
         }
       ],

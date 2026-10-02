@@ -14,36 +14,90 @@
           "marca": "Epson",
           "modelo": "PowerLite E20",
           "precioGTQ": 4499,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Epson%20PowerLite%20E20%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/proyectores/epson-powerlite-e20.jpg",
+          "imagen": "img/proyectores/epson-powerlite-e20-745db63a.jpg",
           "specs": [
-            { "nombre": "Tecnología", "valor": "3LCD", "mejor": null },
-            { "nombre": "Resolución nativa", "valor": "1024 × 768 (XGA)", "mejor": null },
-            { "nombre": "Brillo", "valor": 3400, "unidad": "lúmenes", "mejor": "mayor" },
-            { "nombre": "Contraste", "valor": 15000, "unidad": ":1", "mejor": "mayor" },
-            { "nombre": "Vida de la lámpara (modo ahorro)", "valor": 12000, "unidad": "h", "mejor": "mayor" },
-            { "nombre": "Entradas", "valor": "HDMI, VGA y USB", "mejor": null }
+            {
+              "nombre": "Tecnología",
+              "valor": "3LCD",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución nativa",
+              "valor": "1024 × 768 (XGA)",
+              "mejor": null
+            },
+            {
+              "nombre": "Brillo",
+              "valor": 3400,
+              "unidad": "lúmenes",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Contraste",
+              "valor": 15000,
+              "unidad": ":1",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Vida de la lámpara (modo ahorro)",
+              "valor": 12000,
+              "unidad": "h",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Entradas",
+              "valor": "HDMI, VGA y USB",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "BenQ",
           "modelo": "MX560",
           "precioGTQ": 4299,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20BenQ%20MX560%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/proyectores/benq-mx560.jpg",
+          "imagen": "img/proyectores/benq-mx560-4cce33b0.webp",
           "specs": [
-            { "nombre": "Tecnología", "valor": "DLP", "mejor": null },
-            { "nombre": "Resolución nativa", "valor": "1024 × 768 (XGA)", "mejor": null },
-            { "nombre": "Brillo", "valor": 4000, "unidad": "lúmenes", "mejor": "mayor" },
-            { "nombre": "Contraste", "valor": 20000, "unidad": ":1", "mejor": "mayor" },
-            { "nombre": "Vida de la lámpara (modo ahorro)", "valor": 15000, "unidad": "h", "mejor": "mayor" },
-            { "nombre": "Entradas", "valor": "2 × HDMI y VGA", "mejor": null }
+            {
+              "nombre": "Tecnología",
+              "valor": "DLP",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución nativa",
+              "valor": "1024 × 768 (XGA)",
+              "mejor": null
+            },
+            {
+              "nombre": "Brillo",
+              "valor": 4000,
+              "unidad": "lúmenes",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Contraste",
+              "valor": 20000,
+              "unidad": ":1",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Vida de la lámpara (modo ahorro)",
+              "valor": 15000,
+              "unidad": "h",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Entradas",
+              "valor": "2 × HDMI y VGA",
+              "mejor": null
+            }
           ]
         }
       ],

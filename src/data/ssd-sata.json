@@ -14,38 +14,104 @@
           "marca": "Samsung",
           "modelo": "870 EVO 1 TB",
           "precioGTQ": 899,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Samsung%20870%20EVO%201%20TB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/ssd-sata/samsung-870-evo-1tb.jpg",
+          "imagen": "img/ssd-sata/samsung-870-evo-1-tb-00a1fbcb.jpg",
           "specs": [
-            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
-            { "nombre": "Lectura secuencial", "valor": 560, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Escritura secuencial", "valor": 530, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" },
-            { "nombre": "Caché DRAM", "valor": "Sí", "mejor": null }
+            {
+              "nombre": "Capacidad",
+              "valor": 1,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "SATA III (6 Gb/s)",
+              "mejor": null
+            },
+            {
+              "nombre": "Lectura secuencial",
+              "valor": 560,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Escritura secuencial",
+              "valor": 530,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Durabilidad (TBW)",
+              "valor": 600,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 5,
+              "unidad": "años",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché DRAM",
+              "valor": "Sí",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Kingston",
           "modelo": "KC600 1 TB",
           "precioGTQ": 749,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Kingston%20KC600%201%20TB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/ssd-sata/kingston-kc600-1tb.jpg",
+          "imagen": "img/ssd-sata/kingston-kc600-1-tb-cf3040b4.webp",
           "specs": [
-            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
-            { "nombre": "Lectura secuencial", "valor": 550, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Escritura secuencial", "valor": 520, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" },
-            { "nombre": "Caché DRAM", "valor": "Sí", "mejor": null }
+            {
+              "nombre": "Capacidad",
+              "valor": 1,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "SATA III (6 Gb/s)",
+              "mejor": null
+            },
+            {
+              "nombre": "Lectura secuencial",
+              "valor": 550,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Escritura secuencial",
+              "valor": 520,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Durabilidad (TBW)",
+              "valor": 600,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 5,
+              "unidad": "años",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché DRAM",
+              "valor": "Sí",
+              "mejor": null
+            }
           ]
         }
       ],

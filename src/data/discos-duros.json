@@ -14,36 +14,92 @@
           "marca": "Seagate",
           "modelo": "BarraCuda 2 TB (ST2000DM008)",
           "precioGTQ": 549,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Seagate%20BarraCuda%202%20TB%20(ST2000DM008)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/discos-duros/seagate-barracuda-2tb.jpg",
+          "imagen": "img/discos-duros/seagate-barracuda-2-tb-st2000dm008-970c5b96.webp",
           "specs": [
-            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Velocidad de giro", "valor": 7200, "unidad": "RPM", "mejor": "mayor" },
-            { "nombre": "Caché", "valor": 256, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
-            { "nombre": "Formato", "valor": "3.5 pulgadas", "mejor": null },
-            { "nombre": "Garantía", "valor": 2, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 2,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad de giro",
+              "valor": 7200,
+              "unidad": "RPM",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché",
+              "valor": 256,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "SATA III (6 Gb/s)",
+              "mejor": null
+            },
+            {
+              "nombre": "Formato",
+              "valor": "3.5 pulgadas",
+              "mejor": null
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 2,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "Western Digital",
           "modelo": "WD Blue 2 TB (WD20EZBX)",
           "precioGTQ": 579,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Western%20Digital%20WD%20Blue%202%20TB%20(WD20EZBX)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/discos-duros/wd-blue-2tb.jpg",
+          "imagen": "img/discos-duros/western-digital-wd-blue-2-tb-wd20ezbx-e2f72bf8.jpg",
           "specs": [
-            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Velocidad de giro", "valor": 7200, "unidad": "RPM", "mejor": "mayor" },
-            { "nombre": "Caché", "valor": 256, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "SATA III (6 Gb/s)", "mejor": null },
-            { "nombre": "Formato", "valor": "3.5 pulgadas", "mejor": null },
-            { "nombre": "Garantía", "valor": 2, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 2,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad de giro",
+              "valor": 7200,
+              "unidad": "RPM",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché",
+              "valor": 256,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "SATA III (6 Gb/s)",
+              "mejor": null
+            },
+            {
+              "nombre": "Formato",
+              "valor": "3.5 pulgadas",
+              "mejor": null
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 2,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         }
       ],

@@ -19,6 +19,8 @@ export function VistaCategoria({ slug }: { slug: string }) {
   }
 
   const posicion = categorias.indexOf(categoria);
+  const entradasCategoria = entradasDe(categoria);
+  const primera = entradasCategoria[0]?.comparacion.id;
   const vecinas = [
     { categoria: categorias[posicion - 1], etiqueta: '← Lámina anterior' },
     { categoria: categorias[posicion + 1], etiqueta: 'Lámina siguiente →' },
@@ -26,7 +28,7 @@ export function VistaCategoria({ slug }: { slug: string }) {
 
   return (
     <div>
-      <header className="mb-8">
+      <header id="top" className="mb-8 scroll-mt-24 rounded-2xl border border-borde bg-superficie p-5 shadow-sm sm:p-6">
         <nav aria-label="Ruta" className="text-sm text-suave">
           <a href={hrefPortada} className="hover:text-acento hover:underline">
             Portada
@@ -43,10 +45,28 @@ export function VistaCategoria({ slug }: { slug: string }) {
           </div>
         </div>
         <p className="mt-3 max-w-2xl text-suave">{categoria.descripcion}</p>
+        {primera && (
+          <nav aria-label="Secciones de la lámina" className="mt-5 flex gap-2 overflow-x-auto pb-1">
+            {[
+              ['Resumen', '#top'],
+              ['Productos', `#${primera}-productos`],
+              ['Tabla', `#${primera}-tabla`],
+              ['Recomendación', `#${primera}-recomendacion`],
+            ].map(([etiqueta, href]) => (
+              <a
+                key={etiqueta}
+                href={href}
+                className="inline-flex shrink-0 rounded-full border border-borde bg-superficie-2 px-3 py-1.5 text-sm font-medium transition hover:-translate-y-0.5 hover:border-acento hover:text-acento motion-reduce:transition-none motion-reduce:hover:translate-y-0"
+              >
+                {etiqueta}
+              </a>
+            ))}
+          </nav>
+        )}
       </header>
 
       <div className="space-y-10">
-        {entradasDe(categoria).map((entrada) => (
+        {entradasCategoria.map((entrada) => (
           <TarjetaComparacion key={entrada.comparacion.id} entrada={entrada} />
         ))}
       </div>
@@ -57,7 +77,7 @@ export function VistaCategoria({ slug }: { slug: string }) {
             <a
               key={etiqueta}
               href={hrefCategoria(vecina.categoria)}
-              className={`rounded-xl border border-borde bg-superficie p-4 transition-colors hover:border-acento ${i === 1 ? 'sm:text-right' : ''}`}
+              className={`rounded-xl border border-borde bg-superficie p-4 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-acento hover:shadow-md motion-reduce:transition-none motion-reduce:hover:translate-y-0 ${i === 1 ? 'sm:text-right' : ''}`}
             >
               <span className="block text-xs text-suave">{etiqueta}</span>
               <span className="font-semibold">{vecina.nombre}</span>

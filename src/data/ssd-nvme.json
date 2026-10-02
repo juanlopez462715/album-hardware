@@ -14,38 +14,104 @@
           "marca": "Samsung",
           "modelo": "990 PRO 1 TB",
           "precioGTQ": 1199,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Samsung%20990%20PRO%201%20TB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/ssd-nvme/samsung-990-pro-1tb.jpg",
+          "imagen": "img/ssd-nvme/samsung-990-pro-1-tb-eb7b33e6.jpg",
           "specs": [
-            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "PCIe 4.0 x4, NVMe", "mejor": null },
-            { "nombre": "Formato", "valor": "M.2 2280", "mejor": null },
-            { "nombre": "Lectura secuencial", "valor": 7450, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Escritura secuencial", "valor": 6900, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 1,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "PCIe 4.0 x4, NVMe",
+              "mejor": null
+            },
+            {
+              "nombre": "Formato",
+              "valor": "M.2 2280",
+              "mejor": null
+            },
+            {
+              "nombre": "Lectura secuencial",
+              "valor": 7450,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Escritura secuencial",
+              "valor": 6900,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Durabilidad (TBW)",
+              "valor": 600,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 5,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "Western Digital",
           "modelo": "WD_BLACK SN850X 1 TB",
           "precioGTQ": 1049,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Western%20Digital%20WD_BLACK%20SN850X%201%20TB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/ssd-nvme/wd-black-sn850x-1tb.jpg",
+          "imagen": "img/ssd-nvme/western-digital-wd-black-sn850x-1-tb-7ed8cc3f.webp",
           "specs": [
-            { "nombre": "Capacidad", "valor": 1, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "PCIe 4.0 x4, NVMe", "mejor": null },
-            { "nombre": "Formato", "valor": "M.2 2280", "mejor": null },
-            { "nombre": "Lectura secuencial", "valor": 7300, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Escritura secuencial", "valor": 6300, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Durabilidad (TBW)", "valor": 600, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 1,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "PCIe 4.0 x4, NVMe",
+              "mejor": null
+            },
+            {
+              "nombre": "Formato",
+              "valor": "M.2 2280",
+              "mejor": null
+            },
+            {
+              "nombre": "Lectura secuencial",
+              "valor": 7300,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Escritura secuencial",
+              "valor": 6300,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Durabilidad (TBW)",
+              "valor": 600,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 5,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         }
       ],

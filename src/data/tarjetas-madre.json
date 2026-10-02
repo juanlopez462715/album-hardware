@@ -14,40 +14,106 @@
           "marca": "MSI",
           "modelo": "B650 GAMING PLUS WIFI",
           "precioGTQ": 1599,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20MSI%20B650%20GAMING%20PLUS%20WIFI%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/tarjetas-madre/msi-b650-gaming-plus-wifi.jpg",
+          "imagen": "img/tarjetas-madre/msi-b650-gaming-plus-wifi-de4e32d6.jpg",
           "specs": [
-            { "nombre": "Socket", "valor": "AM5", "mejor": null },
-            { "nombre": "Chipset", "valor": "AMD B650", "mejor": null },
-            { "nombre": "Formato", "valor": "ATX", "mejor": null },
-            { "nombre": "Ranuras de RAM (DDR5)", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Ranuras M.2", "valor": 2, "mejor": "mayor" },
-            { "nombre": "M.2 PCIe 5.0", "valor": "No", "mejor": null },
-            { "nombre": "Wi-Fi", "valor": "Wi-Fi 6E", "mejor": null },
-            { "nombre": "Red cableada (LAN)", "valor": 2.5, "unidad": "Gb/s", "mejor": "mayor" }
+            {
+              "nombre": "Socket",
+              "valor": "AM5",
+              "mejor": null
+            },
+            {
+              "nombre": "Chipset",
+              "valor": "AMD B650",
+              "mejor": null
+            },
+            {
+              "nombre": "Formato",
+              "valor": "ATX",
+              "mejor": null
+            },
+            {
+              "nombre": "Ranuras de RAM (DDR5)",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Ranuras M.2",
+              "valor": 2,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "M.2 PCIe 5.0",
+              "valor": "No",
+              "mejor": null
+            },
+            {
+              "nombre": "Wi-Fi",
+              "valor": "Wi-Fi 6E",
+              "mejor": null
+            },
+            {
+              "nombre": "Red cableada (LAN)",
+              "valor": 2.5,
+              "unidad": "Gb/s",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "ASUS",
           "modelo": "TUF GAMING B650-PLUS WIFI",
           "precioGTQ": 1799,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20ASUS%20TUF%20GAMING%20B650-PLUS%20WIFI%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/tarjetas-madre/asus-tuf-gaming-b650-plus-wifi.jpg",
+          "imagen": "img/tarjetas-madre/asus-tuf-gaming-b650-plus-wifi-417f7af7.jpg",
           "specs": [
-            { "nombre": "Socket", "valor": "AM5", "mejor": null },
-            { "nombre": "Chipset", "valor": "AMD B650", "mejor": null },
-            { "nombre": "Formato", "valor": "ATX", "mejor": null },
-            { "nombre": "Ranuras de RAM (DDR5)", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Ranuras M.2", "valor": 3, "mejor": "mayor" },
-            { "nombre": "M.2 PCIe 5.0", "valor": "Sí (1 ranura)", "mejor": null },
-            { "nombre": "Wi-Fi", "valor": "Wi-Fi 6", "mejor": null },
-            { "nombre": "Red cableada (LAN)", "valor": 2.5, "unidad": "Gb/s", "mejor": "mayor" }
+            {
+              "nombre": "Socket",
+              "valor": "AM5",
+              "mejor": null
+            },
+            {
+              "nombre": "Chipset",
+              "valor": "AMD B650",
+              "mejor": null
+            },
+            {
+              "nombre": "Formato",
+              "valor": "ATX",
+              "mejor": null
+            },
+            {
+              "nombre": "Ranuras de RAM (DDR5)",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Ranuras M.2",
+              "valor": 3,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "M.2 PCIe 5.0",
+              "valor": "Sí (1 ranura)",
+              "mejor": null
+            },
+            {
+              "nombre": "Wi-Fi",
+              "valor": "Wi-Fi 6",
+              "mejor": null
+            },
+            {
+              "nombre": "Red cableada (LAN)",
+              "valor": 2.5,
+              "unidad": "Gb/s",
+              "mejor": "mayor"
+            }
           ]
         }
       ],
