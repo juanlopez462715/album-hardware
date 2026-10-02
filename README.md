@@ -10,7 +10,6 @@ La página es **100 % data-driven**: la interfaz se programó una sola vez y tod
 
 Incluye portada con índice, buscador, modo claro/oscuro y un **modo presentación** a pantalla completa (se navega con las flechas ← →) pensado para la defensa.
 
-> ⚠️ Los precios de ejemplo son estimados y aparecen con la etiqueta **“precio por verificar”** hasta que alguien los confirme en tienda. Las especificaciones también deben revisarse con la página oficial de cada fabricante antes de la defensa.
 
 ---
 
