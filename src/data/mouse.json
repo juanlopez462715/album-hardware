@@ -14,38 +14,100 @@
           "marca": "Logitech",
           "modelo": "G203 LIGHTSYNC",
           "precioGTQ": 229,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Logitech%20G203%20LIGHTSYNC%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/mouse/logitech-g203-lightsync.jpg",
+          "imagen": "img/mouse/logitech-g203-lightsync-1fe7af39.jpg",
           "specs": [
-            { "nombre": "Sensor", "valor": "Óptico", "mejor": null },
-            { "nombre": "Resolución máxima", "valor": 8000, "unidad": "DPI", "mejor": "mayor" },
-            { "nombre": "Botones programables", "valor": 6, "mejor": "mayor" },
-            { "nombre": "Peso", "valor": 85, "unidad": "g", "mejor": "menor" },
-            { "nombre": "Tasa de sondeo", "valor": 1000, "unidad": "Hz", "mejor": "mayor" },
-            { "nombre": "Forma", "valor": "Simétrica", "mejor": null },
-            { "nombre": "Iluminación", "valor": "RGB (3 zonas)", "mejor": null }
+            {
+              "nombre": "Sensor",
+              "valor": "Óptico",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución máxima",
+              "valor": 8000,
+              "unidad": "DPI",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Botones programables",
+              "valor": 6,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Peso",
+              "valor": 85,
+              "unidad": "g",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Tasa de sondeo",
+              "valor": 1000,
+              "unidad": "Hz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Forma",
+              "valor": "Simétrica",
+              "mejor": null
+            },
+            {
+              "nombre": "Iluminación",
+              "valor": "RGB (3 zonas)",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Razer",
           "modelo": "DeathAdder Essential",
           "precioGTQ": 259,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Razer%20DeathAdder%20Essential%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/mouse/razer-deathadder-essential.jpg",
+          "imagen": "img/mouse/razer-deathadder-essential-c758557a.jpg",
           "specs": [
-            { "nombre": "Sensor", "valor": "Óptico", "mejor": null },
-            { "nombre": "Resolución máxima", "valor": 6400, "unidad": "DPI", "mejor": "mayor" },
-            { "nombre": "Botones programables", "valor": 5, "mejor": "mayor" },
-            { "nombre": "Peso", "valor": 96, "unidad": "g", "mejor": "menor" },
-            { "nombre": "Tasa de sondeo", "valor": 1000, "unidad": "Hz", "mejor": "mayor" },
-            { "nombre": "Forma", "valor": "Ergonómica (diestros)", "mejor": null },
-            { "nombre": "Iluminación", "valor": "Verde, un solo color", "mejor": null }
+            {
+              "nombre": "Sensor",
+              "valor": "Óptico",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución máxima",
+              "valor": 6400,
+              "unidad": "DPI",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Botones programables",
+              "valor": 5,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Peso",
+              "valor": 96,
+              "unidad": "g",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Tasa de sondeo",
+              "valor": 1000,
+              "unidad": "Hz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Forma",
+              "valor": "Ergonómica (diestros)",
+              "mejor": null
+            },
+            {
+              "nombre": "Iluminación",
+              "valor": "Verde, un solo color",
+              "mejor": null
+            }
           ]
         }
       ],

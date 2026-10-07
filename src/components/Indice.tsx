@@ -11,19 +11,20 @@ interface Props {
 /** Lista de categorías agrupadas. Se usa en la barra lateral y en el menú del celular. */
 export function Indice({ slugActual, onNavegar }: Props) {
   const enlace = (activo: boolean) =>
-    `flex items-center justify-between gap-2 rounded-md px-3 py-1.5 text-sm transition-colors ${activo ? 'bg-acento font-medium text-acento-texto' : 'hover:bg-superficie-2'}`;
+    `group flex items-center justify-between gap-2 rounded-xl px-3 py-2.5 text-sm transition duration-200 motion-reduce:transition-none ${activo ? 'bg-acento font-semibold text-acento-texto shadow-lg shadow-acento/20' : 'hover:translate-x-1 hover:bg-superficie hover:text-acento hover:shadow-sm motion-reduce:hover:translate-x-0'}`;
 
   return (
-    <nav aria-label="Índice del álbum">
+    <nav aria-label="Índice del álbum" className="space-y-1">
       <a href={hrefPortada} onClick={onNavegar} className={enlace(slugActual === null)} aria-current={slugActual === null ? 'page' : undefined}>
-        Portada
+        <span>Portada</span>
+        <span className="rounded-full bg-white/20 px-2 py-0.5 text-[11px] tabular-nums opacity-80">Inicio</span>
       </a>
       {GRUPOS.map((grupo) => {
         const lista = categorias.filter((c) => c.grupo === grupo);
         if (lista.length === 0) return null;
         return (
-          <div key={grupo} className="mt-6">
-            <h2 className="px-3 text-xs font-semibold tracking-wider text-suave uppercase">{NOMBRES_GRUPO[grupo]}</h2>
+          <div key={grupo} className="pt-5">
+            <h2 className="px-3 text-[11px] font-bold tracking-wider text-suave uppercase">{NOMBRES_GRUPO[grupo]}</h2>
             <ul className="mt-2 space-y-0.5">
               {lista.map((categoria) => {
                 const activo = categoria.categoria === slugActual;
@@ -35,8 +36,12 @@ export function Indice({ slugActual, onNavegar }: Props) {
                       aria-current={activo ? 'page' : undefined}
                       className={enlace(activo)}
                     >
-                      <span>{categoria.nombre}</span>
-                      <span className="text-xs tabular-nums opacity-60">{dosDigitos(laminaDe(categoria))}</span>
+                      <span className="min-w-0 truncate">{categoria.nombre}</span>
+                      <span
+                        className={`rounded-full px-2 py-0.5 text-[11px] tabular-nums ${activo ? 'bg-white/20 opacity-90' : 'bg-superficie-2 text-suave group-hover:bg-acento/10 group-hover:text-acento'}`}
+                      >
+                        {dosDigitos(laminaDe(categoria))}
+                      </span>
                     </a>
                   </li>
                 );

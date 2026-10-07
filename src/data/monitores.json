@@ -14,38 +14,100 @@
           "marca": "LG",
           "modelo": "UltraGear 27GS75Q-B",
           "precioGTQ": 2099,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20LG%20UltraGear%2027GS75Q-B%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/monitores/lg-ultragear-27gs75q-b.jpg",
+          "imagen": "img/monitores/lg-ultragear-27gs75q-b-2058a225.jpg",
           "specs": [
-            { "nombre": "Tamaño", "valor": 27, "unidad": "\"", "mejor": null },
-            { "nombre": "Resolución", "valor": "2560 × 1440 (QHD)", "mejor": null },
-            { "nombre": "Tipo de panel", "valor": "IPS plano", "mejor": null },
-            { "nombre": "Frecuencia de actualización", "valor": 180, "unidad": "Hz", "mejor": "mayor" },
-            { "nombre": "Tiempo de respuesta", "valor": "1 ms (GtG)", "mejor": null },
-            { "nombre": "Contraste", "valor": 1000, "unidad": ":1", "mejor": "mayor" },
-            { "nombre": "HDR", "valor": "HDR10", "mejor": null }
+            {
+              "nombre": "Tamaño",
+              "valor": 27,
+              "unidad": "\"",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución",
+              "valor": "2560 × 1440 (QHD)",
+              "mejor": null
+            },
+            {
+              "nombre": "Tipo de panel",
+              "valor": "IPS plano",
+              "mejor": null
+            },
+            {
+              "nombre": "Frecuencia de actualización",
+              "valor": 180,
+              "unidad": "Hz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tiempo de respuesta",
+              "valor": "1 ms (GtG)",
+              "mejor": null
+            },
+            {
+              "nombre": "Contraste",
+              "valor": 1000,
+              "unidad": ":1",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "HDR",
+              "valor": "HDR10",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Samsung",
           "modelo": "Odyssey G5 27\" (LS27CG552)",
           "precioGTQ": 2199,
-          "tienda": "Max",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Samsung%20Odyssey%20G5%2027%22%20(LS27CG552)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/monitores/samsung-odyssey-g5-ls27cg552.jpg",
+          "imagen": "img/monitores/samsung-odyssey-g5-27-ls27cg552-738a21e7.webp",
           "specs": [
-            { "nombre": "Tamaño", "valor": 27, "unidad": "\"", "mejor": null },
-            { "nombre": "Resolución", "valor": "2560 × 1440 (QHD)", "mejor": null },
-            { "nombre": "Tipo de panel", "valor": "VA curvo (1000R)", "mejor": null },
-            { "nombre": "Frecuencia de actualización", "valor": 165, "unidad": "Hz", "mejor": "mayor" },
-            { "nombre": "Tiempo de respuesta", "valor": "1 ms (MPRT)", "mejor": null },
-            { "nombre": "Contraste", "valor": 2500, "unidad": ":1", "mejor": "mayor" },
-            { "nombre": "HDR", "valor": "HDR10", "mejor": null }
+            {
+              "nombre": "Tamaño",
+              "valor": 27,
+              "unidad": "\"",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución",
+              "valor": "2560 × 1440 (QHD)",
+              "mejor": null
+            },
+            {
+              "nombre": "Tipo de panel",
+              "valor": "VA curvo (1000R)",
+              "mejor": null
+            },
+            {
+              "nombre": "Frecuencia de actualización",
+              "valor": 165,
+              "unidad": "Hz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tiempo de respuesta",
+              "valor": "1 ms (MPRT)",
+              "mejor": null
+            },
+            {
+              "nombre": "Contraste",
+              "valor": 2500,
+              "unidad": ":1",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "HDR",
+              "valor": "HDR10",
+              "mejor": null
+            }
           ]
         }
       ],

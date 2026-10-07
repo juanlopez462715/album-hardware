@@ -14,38 +14,102 @@
           "marca": "Epson",
           "modelo": "EcoTank L3250",
           "precioGTQ": 1499,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Epson%20EcoTank%20L3250%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/impresoras/epson-ecotank-l3250.jpg",
+          "imagen": "img/impresoras/epson-ecotank-l3250-ba5d393e.webp",
           "specs": [
-            { "nombre": "Funciones", "valor": "Imprime, copia y escanea", "mejor": null },
-            { "nombre": "Velocidad ISO en negro", "valor": 10, "unidad": "ppm", "mejor": "mayor" },
-            { "nombre": "Velocidad ISO en color", "valor": 5, "unidad": "ppm", "mejor": "mayor" },
-            { "nombre": "Rendimiento de tinta negra incluida", "valor": 4500, "unidad": "páginas", "mejor": "mayor" },
-            { "nombre": "Rendimiento de tinta de color incluida", "valor": 7500, "unidad": "páginas", "mejor": "mayor" },
-            { "nombre": "Resolución máxima", "valor": "5760 × 1440 dpi", "mejor": null },
-            { "nombre": "Conectividad", "valor": "USB, Wi-Fi y Wi-Fi Direct", "mejor": null }
+            {
+              "nombre": "Funciones",
+              "valor": "Imprime, copia y escanea",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad ISO en negro",
+              "valor": 10,
+              "unidad": "ppm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad ISO en color",
+              "valor": 5,
+              "unidad": "ppm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Rendimiento de tinta negra incluida",
+              "valor": 4500,
+              "unidad": "páginas",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Rendimiento de tinta de color incluida",
+              "valor": 7500,
+              "unidad": "páginas",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Resolución máxima",
+              "valor": "5760 × 1440 dpi",
+              "mejor": null
+            },
+            {
+              "nombre": "Conectividad",
+              "valor": "USB, Wi-Fi y Wi-Fi Direct",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "HP",
           "modelo": "Smart Tank 580",
           "precioGTQ": 1599,
-          "tienda": "Max",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20HP%20Smart%20Tank%20580%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/impresoras/hp-smart-tank-580.jpg",
+          "imagen": "img/impresoras/hp-smart-tank-580-6ac13430.webp",
           "specs": [
-            { "nombre": "Funciones", "valor": "Imprime, copia y escanea", "mejor": null },
-            { "nombre": "Velocidad ISO en negro", "valor": 12, "unidad": "ppm", "mejor": "mayor" },
-            { "nombre": "Velocidad ISO en color", "valor": 5, "unidad": "ppm", "mejor": "mayor" },
-            { "nombre": "Rendimiento de tinta negra incluida", "valor": 6000, "unidad": "páginas", "mejor": "mayor" },
-            { "nombre": "Rendimiento de tinta de color incluida", "valor": 8000, "unidad": "páginas", "mejor": "mayor" },
-            { "nombre": "Resolución máxima", "valor": "4800 × 1200 dpi", "mejor": null },
-            { "nombre": "Conectividad", "valor": "USB, Wi-Fi, Wi-Fi Direct y Bluetooth", "mejor": null }
+            {
+              "nombre": "Funciones",
+              "valor": "Imprime, copia y escanea",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad ISO en negro",
+              "valor": 12,
+              "unidad": "ppm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad ISO en color",
+              "valor": 5,
+              "unidad": "ppm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Rendimiento de tinta negra incluida",
+              "valor": 6000,
+              "unidad": "páginas",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Rendimiento de tinta de color incluida",
+              "valor": 8000,
+              "unidad": "páginas",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Resolución máxima",
+              "valor": "4800 × 1200 dpi",
+              "mejor": null
+            },
+            {
+              "nombre": "Conectividad",
+              "valor": "USB, Wi-Fi, Wi-Fi Direct y Bluetooth",
+              "mejor": null
+            }
           ]
         }
       ],

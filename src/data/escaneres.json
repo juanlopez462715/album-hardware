@@ -14,34 +14,78 @@
           "marca": "Canon",
           "modelo": "CanoScan LiDE 300",
           "precioGTQ": 699,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Canon%20CanoScan%20LiDE%20300%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/escaneres/canon-canoscan-lide-300.jpg",
+          "imagen": "img/escaneres/canon-canoscan-lide-300-24797305.jpg",
           "specs": [
-            { "nombre": "Tipo", "valor": "Cama plana (sensor CIS)", "mejor": null },
-            { "nombre": "Resolución óptica", "valor": 2400, "unidad": "dpi", "mejor": "mayor" },
-            { "nombre": "Profundidad de color", "valor": 48, "unidad": "bits", "mejor": "mayor" },
-            { "nombre": "Tamaño máximo", "valor": "A4 / Carta", "mejor": null },
-            { "nombre": "Alimentación", "valor": "Por USB, sin adaptador", "mejor": null }
+            {
+              "nombre": "Tipo",
+              "valor": "Cama plana (sensor CIS)",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución óptica",
+              "valor": 2400,
+              "unidad": "dpi",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Profundidad de color",
+              "valor": 48,
+              "unidad": "bits",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tamaño máximo",
+              "valor": "A4 / Carta",
+              "mejor": null
+            },
+            {
+              "nombre": "Alimentación",
+              "valor": "Por USB, sin adaptador",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Epson",
           "modelo": "Perfection V39 II",
           "precioGTQ": 1049,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Epson%20Perfection%20V39%20II%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/escaneres/epson-perfection-v39-ii.jpg",
+          "imagen": "img/escaneres/epson-perfection-v39-ii-dc631b97.jpg",
           "specs": [
-            { "nombre": "Tipo", "valor": "Cama plana (sensor CIS)", "mejor": null },
-            { "nombre": "Resolución óptica", "valor": 4800, "unidad": "dpi", "mejor": "mayor" },
-            { "nombre": "Profundidad de color", "valor": 48, "unidad": "bits", "mejor": "mayor" },
-            { "nombre": "Tamaño máximo", "valor": "A4 / Carta", "mejor": null },
-            { "nombre": "Alimentación", "valor": "Por USB, sin adaptador", "mejor": null }
+            {
+              "nombre": "Tipo",
+              "valor": "Cama plana (sensor CIS)",
+              "mejor": null
+            },
+            {
+              "nombre": "Resolución óptica",
+              "valor": 4800,
+              "unidad": "dpi",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Profundidad de color",
+              "valor": 48,
+              "unidad": "bits",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tamaño máximo",
+              "valor": "A4 / Carta",
+              "mejor": null
+            },
+            {
+              "nombre": "Alimentación",
+              "valor": "Por USB, sin adaptador",
+              "mejor": null
+            }
           ]
         }
       ],

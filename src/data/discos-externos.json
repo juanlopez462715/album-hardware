@@ -14,34 +14,78 @@
           "marca": "Western Digital",
           "modelo": "My Passport 2 TB",
           "precioGTQ": 749,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Western%20Digital%20My%20Passport%202%20TB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/discos-externos/wd-my-passport-2tb.jpg",
+          "imagen": "img/discos-externos/western-digital-my-passport-2-tb-466e778f.jpg",
           "specs": [
-            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "USB 3.2 Gen 1", "mejor": null },
-            { "nombre": "Protección de datos", "valor": "Contraseña y cifrado AES de 256 bits por hardware", "mejor": null },
-            { "nombre": "Recuperación de datos incluida", "valor": "No", "mejor": null },
-            { "nombre": "Garantía", "valor": 3, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 2,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "USB 3.2 Gen 1",
+              "mejor": null
+            },
+            {
+              "nombre": "Protección de datos",
+              "valor": "Contraseña y cifrado AES de 256 bits por hardware",
+              "mejor": null
+            },
+            {
+              "nombre": "Recuperación de datos incluida",
+              "valor": "No",
+              "mejor": null
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 3,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "Seagate",
           "modelo": "One Touch 2 TB (HDD)",
           "precioGTQ": 729,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Seagate%20One%20Touch%202%20TB%20(HDD)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/discos-externos/seagate-one-touch-2tb.jpg",
+          "imagen": "img/discos-externos/seagate-one-touch-2-tb-hdd-25fce2e2.jpg",
           "specs": [
-            { "nombre": "Capacidad", "valor": 2, "unidad": "TB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "USB 3.0", "mejor": null },
-            { "nombre": "Protección de datos", "valor": "Contraseña", "mejor": null },
-            { "nombre": "Recuperación de datos incluida", "valor": "Sí (servicio Rescue)", "mejor": null },
-            { "nombre": "Garantía", "valor": 2, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 2,
+              "unidad": "TB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "USB 3.0",
+              "mejor": null
+            },
+            {
+              "nombre": "Protección de datos",
+              "valor": "Contraseña",
+              "mejor": null
+            },
+            {
+              "nombre": "Recuperación de datos incluida",
+              "valor": "Sí (servicio Rescue)",
+              "mejor": null
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 2,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         }
       ],

@@ -10,7 +10,6 @@ La página es **100 % data-driven**: la interfaz se programó una sola vez y tod
 
 Incluye portada con índice, buscador, modo claro/oscuro y un **modo presentación** a pantalla completa (se navega con las flechas ← →) pensado para la defensa.
 
-> ⚠️ Los precios de ejemplo son estimados y aparecen con la etiqueta **“precio por verificar”** hasta que alguien los confirme en tienda. Las especificaciones también deben revisarse con la página oficial de cada fabricante antes de la defensa.
 
 ---
 
@@ -135,7 +134,7 @@ Una comparación se ve así (versión corta):
 | `fechaConsulta` | `"AAAA-MM-DD"` (ej. `"2026-10-05"`) o `""` si todavía no se verificó. |
 | `urlFuente` | Enlace completo a la página del producto (`https://…`) o `""`. |
 | `verificado` | `true` si alguien confirmó el precio en tienda; si no, `false`. |
-| `imagen` | Ruta dentro de `public/`: `"img/<categoria>/<archivo>.jpg"`. Sin `/` al inicio. |
+| `imagen` | Ruta dentro de `public/`: `"img/<categoria>/<archivo>.jpg"` o URL externa segura `https://...`. |
 | `specs` | Lista de características (ver el paso 5). |
 | `productoGanador` | **Copia exacta** del `modelo` del producto que recomiendan. |
 | `razones` | Entre 2 y 3 razones concretas, con números si se puede. |
@@ -158,9 +157,9 @@ La página resalta en verde la celda ganadora de cada fila. Si todos empatan, la
 
 ### 6. Agrega las imágenes
 
-1. Descarga la foto del producto, de preferencia con fondo blanco, en `.jpg`, `.png` o `.webp`.
-2. Guárdala en `public/img/<categoria>/` **con el mismo nombre** que escribiste en `imagen`.
-3. Mientras la imagen no exista, la página muestra un placeholder que dice “Imagen pendiente”.
+1. Puedes usar una URL externa `https://...` de una página de producto, tienda o fabricante.
+2. Si prefieres guardar la imagen localmente, usa `public/img/<categoria>/` y escribe la ruta como `img/<categoria>/<archivo>.jpg`.
+3. Mientras una imagen local no exista o una URL externa falle, la página muestra un placeholder que dice “Imagen pendiente”.
 
 ### 7. Valida y revisa
 

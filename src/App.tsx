@@ -75,9 +75,9 @@ export default function App() {
       />
       <AvisoDatos />
 
-      <div className="mx-auto flex w-full max-w-7xl flex-1 gap-8 px-4 sm:px-6">
-        <aside className="hidden w-60 shrink-0 lg:block">
-          <div className="sticky top-16 max-h-[calc(100dvh-4rem)] overflow-y-auto py-8 pr-2">
+      <div className="flex w-full flex-1 gap-5 px-3 sm:px-5 lg:px-0 lg:pr-6">
+        <aside className="hidden w-72 shrink-0 border-r border-borde/80 bg-superficie/54 lg:block">
+          <div className="sticky top-16 max-h-[calc(100dvh-4rem)] overflow-y-auto py-6 pr-3 pl-3">
             <Indice slugActual={slugActual} />
           </div>
         </aside>
