@@ -15,36 +15,88 @@
           "marca": "HP",
           "modelo": "Pro Tower 290 G9 (Core i3-13100, 8 GB, SSD 512 GB)",
           "precioGTQ": 4499,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20HP%20Pro%20Tower%20290%20G9%20(Core%20i3-13100%2C%208%20GB%2C%20SSD%20512%20GB)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/pcs/hp-pro-tower-290-g9.jpg",
+          "imagen": "img/pcs/hp-pro-tower-290-g9-core-i3-13100-8-gb-ssd-512-gb-755617e6.png",
           "specs": [
-            { "nombre": "Procesador", "valor": "Intel Core i3-13100", "mejor": null },
-            { "nombre": "Núcleos", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Hilos", "valor": 8, "mejor": "mayor" },
-            { "nombre": "RAM", "valor": 8, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Almacenamiento SSD", "valor": 512, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Gráficos", "valor": "Intel UHD 730 (integrados)", "mejor": null }
+            {
+              "nombre": "Procesador",
+              "valor": "Intel Core i3-13100",
+              "mejor": null
+            },
+            {
+              "nombre": "Núcleos",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 8,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "RAM",
+              "valor": 8,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Almacenamiento SSD",
+              "valor": 512,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Gráficos",
+              "valor": "Intel UHD 730 (integrados)",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Lenovo",
           "modelo": "ThinkCentre neo 50s Gen 4 (Core i5-13400, 8 GB, SSD 512 GB)",
           "precioGTQ": 5699,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Lenovo%20ThinkCentre%20neo%2050s%20Gen%204%20(Core%20i5-13400%2C%208%20GB%2C%20SSD%20512%20GB)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/pcs/lenovo-thinkcentre-neo-50s-gen-4.jpg",
+          "imagen": "img/pcs/lenovo-thinkcentre-neo-50s-gen-4-core-i5-13400-8-gb-ssd-512-gb-f82177dd.webp",
           "specs": [
-            { "nombre": "Procesador", "valor": "Intel Core i5-13400", "mejor": null },
-            { "nombre": "Núcleos", "valor": 10, "mejor": "mayor" },
-            { "nombre": "Hilos", "valor": 16, "mejor": "mayor" },
-            { "nombre": "RAM", "valor": 8, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Almacenamiento SSD", "valor": 512, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Gráficos", "valor": "Intel UHD 730 (integrados)", "mejor": null }
+            {
+              "nombre": "Procesador",
+              "valor": "Intel Core i5-13400",
+              "mejor": null
+            },
+            {
+              "nombre": "Núcleos",
+              "valor": 10,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 16,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "RAM",
+              "valor": 8,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Almacenamiento SSD",
+              "valor": 512,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Gráficos",
+              "valor": "Intel UHD 730 (integrados)",
+              "mejor": null
+            }
           ]
         }
       ],
@@ -66,36 +118,90 @@
           "marca": "Lenovo",
           "modelo": "LOQ Tower (Core i5-14400F, RTX 5060, 16 GB, SSD 1 TB)",
           "precioGTQ": 10499,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Lenovo%20LOQ%20Tower%20(Core%20i5-14400F%2C%20RTX%205060%2C%2016%20GB%2C%20SSD%201%20TB)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/pcs/lenovo-loq-tower.jpg",
+          "imagen": "img/pcs/lenovo-loq-tower-core-i5-14400f-rtx-5060-16-gb-ssd-1-tb-11a994ca.jpg",
           "specs": [
-            { "nombre": "Procesador", "valor": "Intel Core i5-14400F", "mejor": null },
-            { "nombre": "Núcleos", "valor": 10, "mejor": "mayor" },
-            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5060", "mejor": null },
-            { "nombre": "Memoria de video", "valor": 8, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "RAM", "valor": 16, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Almacenamiento SSD", "valor": 1000, "unidad": "GB", "mejor": "mayor" }
+            {
+              "nombre": "Procesador",
+              "valor": "Intel Core i5-14400F",
+              "mejor": null
+            },
+            {
+              "nombre": "Núcleos",
+              "valor": 10,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tarjeta gráfica",
+              "valor": "NVIDIA GeForce RTX 5060",
+              "mejor": null
+            },
+            {
+              "nombre": "Memoria de video",
+              "valor": 8,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "RAM",
+              "valor": 16,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Almacenamiento SSD",
+              "valor": 1000,
+              "unidad": "GB",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "HP",
           "modelo": "Victus 15L (Core i5-14400F, RTX 5060, 16 GB, SSD 512 GB)",
           "precioGTQ": 10299,
-          "tienda": "Max",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20HP%20Victus%2015L%20(Core%20i5-14400F%2C%20RTX%205060%2C%2016%20GB%2C%20SSD%20512%20GB)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/pcs/hp-victus-15l.jpg",
+          "imagen": "img/pcs/hp-victus-15l-core-i5-14400f-rtx-5060-16-gb-ssd-512-gb-484d70a1.avif",
           "specs": [
-            { "nombre": "Procesador", "valor": "Intel Core i5-14400F", "mejor": null },
-            { "nombre": "Núcleos", "valor": 10, "mejor": "mayor" },
-            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5060", "mejor": null },
-            { "nombre": "Memoria de video", "valor": 8, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "RAM", "valor": 16, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Almacenamiento SSD", "valor": 512, "unidad": "GB", "mejor": "mayor" }
+            {
+              "nombre": "Procesador",
+              "valor": "Intel Core i5-14400F",
+              "mejor": null
+            },
+            {
+              "nombre": "Núcleos",
+              "valor": 10,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tarjeta gráfica",
+              "valor": "NVIDIA GeForce RTX 5060",
+              "mejor": null
+            },
+            {
+              "nombre": "Memoria de video",
+              "valor": 8,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "RAM",
+              "valor": 16,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Almacenamiento SSD",
+              "valor": 512,
+              "unidad": "GB",
+              "mejor": "mayor"
+            }
           ]
         }
       ],
@@ -117,36 +223,90 @@
           "marca": "HP",
           "modelo": "OMEN 35L (Core Ultra 7 265K, RTX 5070 Ti, 32 GB, SSD 1 TB)",
           "precioGTQ": 21999,
-          "tienda": "Max",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20HP%20OMEN%2035L%20(Core%20Ultra%207%20265K%2C%20RTX%205070%20Ti%2C%2032%20GB%2C%20SSD%201%20TB)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/pcs/hp-omen-35l.jpg",
+          "imagen": "img/pcs/hp-omen-35l-core-ultra-7-265k-rtx-5070-ti-32-gb-ssd-1-tb-9665faba.webp",
           "specs": [
-            { "nombre": "Procesador", "valor": "Intel Core Ultra 7 265K", "mejor": null },
-            { "nombre": "Núcleos", "valor": 20, "mejor": "mayor" },
-            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5070 Ti", "mejor": null },
-            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "RAM", "valor": 32, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Almacenamiento SSD", "valor": 1000, "unidad": "GB", "mejor": "mayor" }
+            {
+              "nombre": "Procesador",
+              "valor": "Intel Core Ultra 7 265K",
+              "mejor": null
+            },
+            {
+              "nombre": "Núcleos",
+              "valor": 20,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tarjeta gráfica",
+              "valor": "NVIDIA GeForce RTX 5070 Ti",
+              "mejor": null
+            },
+            {
+              "nombre": "Memoria de video",
+              "valor": 16,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "RAM",
+              "valor": 32,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Almacenamiento SSD",
+              "valor": 1000,
+              "unidad": "GB",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "Lenovo",
           "modelo": "Legion Tower 7i Gen 10 (Core Ultra 9 285K, RTX 5080, 32 GB, SSD 2 TB)",
           "precioGTQ": 29999,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Lenovo%20Legion%20Tower%207i%20Gen%2010%20(Core%20Ultra%209%20285K%2C%20RTX%205080%2C%2032%20GB%2C%20SSD%202%20TB)%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/pcs/lenovo-legion-tower-7i-gen-10.jpg",
+          "imagen": "img/pcs/lenovo-legion-tower-7i-gen-10-core-ultra-9-285k-rtx-5080-32-gb-ssd-2-tb-779525a0.jpg",
           "specs": [
-            { "nombre": "Procesador", "valor": "Intel Core Ultra 9 285K", "mejor": null },
-            { "nombre": "Núcleos", "valor": 24, "mejor": "mayor" },
-            { "nombre": "Tarjeta gráfica", "valor": "NVIDIA GeForce RTX 5080", "mejor": null },
-            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "RAM", "valor": 32, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Almacenamiento SSD", "valor": 2000, "unidad": "GB", "mejor": "mayor" }
+            {
+              "nombre": "Procesador",
+              "valor": "Intel Core Ultra 9 285K",
+              "mejor": null
+            },
+            {
+              "nombre": "Núcleos",
+              "valor": 24,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tarjeta gráfica",
+              "valor": "NVIDIA GeForce RTX 5080",
+              "mejor": null
+            },
+            {
+              "nombre": "Memoria de video",
+              "valor": 16,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "RAM",
+              "valor": 32,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Almacenamiento SSD",
+              "valor": 2000,
+              "unidad": "GB",
+              "mejor": "mayor"
+            }
           ]
         }
       ],

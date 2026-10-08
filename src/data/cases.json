@@ -13,39 +13,101 @@
         {
           "marca": "Corsair",
           "modelo": "4000D Airflow",
-          "precioGTQ": 899,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
-          "verificado": false,
-          "imagen": "img/cases/corsair-4000d-airflow.jpg",
+          "precioGTQ": 755,
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.intelaf.com/precios_stock_detallado/cas-cor-c400adn",
+          "verificado": true,
+          "imagen": "img/cases/corsair-4000d-airflow-6f88e427.webp",
           "specs": [
-            { "nombre": "Formato", "valor": "Mid tower (ATX)", "mejor": null },
-            { "nombre": "Ventiladores incluidos", "valor": 2, "mejor": "mayor" },
-            { "nombre": "Tamaño de ventiladores", "valor": "2 × 120 mm", "mejor": null },
-            { "nombre": "Largo máximo de GPU", "valor": 360, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Altura máxima de disipador", "valor": 170, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Radiador frontal máximo", "valor": 360, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Panel lateral", "valor": "Vidrio templado", "mejor": null }
+            {
+              "nombre": "Formato",
+              "valor": "Mid tower (ATX)",
+              "mejor": null
+            },
+            {
+              "nombre": "Ventiladores incluidos",
+              "valor": 2,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tamaño de ventiladores",
+              "valor": "2 × 120 mm",
+              "mejor": null
+            },
+            {
+              "nombre": "Largo máximo de GPU",
+              "valor": 360,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Altura máxima de disipador",
+              "valor": 170,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Radiador frontal máximo",
+              "valor": 360,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Panel lateral",
+              "valor": "Vidrio templado",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Lian Li",
           "modelo": "LANCOOL 216",
           "precioGTQ": 999,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Lian%20Li%20LANCOOL%20216%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/cases/lian-li-lancool-216.jpg",
+          "imagen": "img/cases/lian-li-lancool-216-b69479de.jpg",
           "specs": [
-            { "nombre": "Formato", "valor": "Mid tower (ATX)", "mejor": null },
-            { "nombre": "Ventiladores incluidos", "valor": 3, "mejor": "mayor" },
-            { "nombre": "Tamaño de ventiladores", "valor": "2 × 160 mm + 1 × 140 mm", "mejor": null },
-            { "nombre": "Largo máximo de GPU", "valor": 392, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Altura máxima de disipador", "valor": 180.5, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Radiador frontal máximo", "valor": 360, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Panel lateral", "valor": "Vidrio templado", "mejor": null }
+            {
+              "nombre": "Formato",
+              "valor": "Mid tower (ATX)",
+              "mejor": null
+            },
+            {
+              "nombre": "Ventiladores incluidos",
+              "valor": 3,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tamaño de ventiladores",
+              "valor": "2 × 160 mm + 1 × 140 mm",
+              "mejor": null
+            },
+            {
+              "nombre": "Largo máximo de GPU",
+              "valor": 392,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Altura máxima de disipador",
+              "valor": 180.5,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Radiador frontal máximo",
+              "valor": 360,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Panel lateral",
+              "valor": "Vidrio templado",
+              "mejor": null
+            }
           ]
         }
       ],

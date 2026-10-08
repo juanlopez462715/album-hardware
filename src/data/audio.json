@@ -13,37 +13,87 @@
         {
           "marca": "HyperX",
           "modelo": "Cloud III",
-          "precioGTQ": 749,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
-          "verificado": false,
-          "imagen": "img/audio/hyperx-cloud-iii.jpg",
+          "precioGTQ": 979,
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.intelaf.com/precios_stock_detallado/aud-hypx-wlcl3n",
+          "verificado": true,
+          "imagen": "img/audio/hyperx-cloud-iii-5432fe10.webp",
           "specs": [
-            { "nombre": "Tipo", "valor": "Sobre la oreja, cerrados", "mejor": null },
-            { "nombre": "Tamaño de los drivers", "valor": 53, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Respuesta en frecuencia", "valor": "10 Hz – 21 kHz", "mejor": null },
-            { "nombre": "Micrófono", "valor": "Desmontable, con cancelación de ruido", "mejor": null },
-            { "nombre": "Conexión", "valor": "USB-C, USB-A y 3.5 mm", "mejor": null },
-            { "nombre": "Sonido espacial", "valor": "DTS Headphone:X", "mejor": null }
+            {
+              "nombre": "Tipo",
+              "valor": "Sobre la oreja, cerrados",
+              "mejor": null
+            },
+            {
+              "nombre": "Tamaño de los drivers",
+              "valor": 53,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Respuesta en frecuencia",
+              "valor": "10 Hz – 21 kHz",
+              "mejor": null
+            },
+            {
+              "nombre": "Micrófono",
+              "valor": "Desmontable, con cancelación de ruido",
+              "mejor": null
+            },
+            {
+              "nombre": "Conexión",
+              "valor": "USB-C, USB-A y 3.5 mm",
+              "mejor": null
+            },
+            {
+              "nombre": "Sonido espacial",
+              "valor": "DTS Headphone:X",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Razer",
           "modelo": "BlackShark V2 X",
-          "precioGTQ": 399,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
-          "verificado": false,
-          "imagen": "img/audio/razer-blackshark-v2-x.jpg",
+          "precioGTQ": 417,
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.intelaf.com/precios_stock_detallado/audf-raz-blsv2x",
+          "verificado": true,
+          "imagen": "img/audio/razer-blackshark-v2-x-2e4efa6e.avif",
           "specs": [
-            { "nombre": "Tipo", "valor": "Sobre la oreja, cerrados", "mejor": null },
-            { "nombre": "Tamaño de los drivers", "valor": 50, "unidad": "mm", "mejor": "mayor" },
-            { "nombre": "Respuesta en frecuencia", "valor": "12 Hz – 28 kHz", "mejor": null },
-            { "nombre": "Micrófono", "valor": "Fijo, flexible (cardioide)", "mejor": null },
-            { "nombre": "Conexión", "valor": "3.5 mm", "mejor": null },
-            { "nombre": "Sonido espacial", "valor": "7.1 por software (solo Windows)", "mejor": null }
+            {
+              "nombre": "Tipo",
+              "valor": "Sobre la oreja, cerrados",
+              "mejor": null
+            },
+            {
+              "nombre": "Tamaño de los drivers",
+              "valor": 50,
+              "unidad": "mm",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Respuesta en frecuencia",
+              "valor": "12 Hz – 28 kHz",
+              "mejor": null
+            },
+            {
+              "nombre": "Micrófono",
+              "valor": "Fijo, flexible (cardioide)",
+              "mejor": null
+            },
+            {
+              "nombre": "Conexión",
+              "valor": "3.5 mm",
+              "mejor": null
+            },
+            {
+              "nombre": "Sonido espacial",
+              "valor": "7.1 por software (solo Windows)",
+              "mejor": null
+            }
           ]
         }
       ],

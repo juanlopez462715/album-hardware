@@ -5,30 +5,32 @@
 
 /* Colores del tema. Cada nombre tiene un valor para modo claro y otro para oscuro. */
 :root {
-  --fondo: #f5f2eb;
+  --fondo: #f7f7f4;
   --superficie: #ffffff;
-  --superficie-2: #f0ece3;
-  --texto: #1c1b19;
-  --suave: #5f5b53;
-  --borde: #e2ddd2;
-  --acento: #3730a3;
+  --superficie-2: #eef4f3;
+  --texto: #171b1f;
+  --suave: #5d6670;
+  --borde: #dfe6e4;
+  --acento: #0f766e;
   --acento-texto: #ffffff;
   --gana-fondo: #d1fae5;
   --gana-texto: #065f46;
+  --halo: #f59e0b;
   color-scheme: light;
 }
 
 .dark {
-  --fondo: #0f1115;
-  --superficie: #171a21;
-  --superficie-2: #1e222b;
-  --texto: #ecebe7;
-  --suave: #a09d96;
-  --borde: #2a2f3a;
-  --acento: #a5b4fc;
-  --acento-texto: #111318;
+  --fondo: #0d1114;
+  --superficie: #151b1f;
+  --superficie-2: #1f292d;
+  --texto: #edf3f2;
+  --suave: #a9b4b2;
+  --borde: #2d3a3d;
+  --acento: #5eead4;
+  --acento-texto: #071315;
   --gana-fondo: rgb(16 185 129 / 0.18);
   --gana-texto: #6ee7b7;
+  --halo: #fbbf24;
   color-scheme: dark;
 }
 
@@ -43,6 +45,7 @@
   --color-acento-texto: var(--acento-texto);
   --color-gana-fondo: var(--gana-fondo);
   --color-gana-texto: var(--gana-texto);
+  --color-halo: var(--halo);
 }
 
 @theme {
@@ -64,8 +67,15 @@
 }
 
 body {
+  background:
+    radial-gradient(circle at 18% 0%, color-mix(in srgb, var(--halo) 18%, transparent) 0, transparent 34rem),
+    linear-gradient(180deg, color-mix(in srgb, var(--superficie-2) 62%, var(--fondo)) 0, var(--fondo) 28rem);
   background-color: var(--fondo);
   color: var(--texto);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--acento) 24%, transparent);
 }

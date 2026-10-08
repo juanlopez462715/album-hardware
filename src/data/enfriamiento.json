@@ -14,36 +14,88 @@
           "marca": "Thermalright",
           "modelo": "Peerless Assassin 120 SE",
           "precioGTQ": 399,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Thermalright%20Peerless%20Assassin%20120%20SE%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/enfriamiento/thermalright-peerless-assassin-120-se.jpg",
+          "imagen": "img/enfriamiento/thermalright-peerless-assassin-120-se-0f03c25a.webp",
           "specs": [
-            { "nombre": "Tipo", "valor": "Aire, torre doble", "mejor": null },
-            { "nombre": "Tubos de calor (heatpipes)", "valor": 6, "mejor": "mayor" },
-            { "nombre": "Ventiladores incluidos", "valor": 2, "mejor": "mayor" },
-            { "nombre": "Altura", "valor": 155, "unidad": "mm", "mejor": "menor" },
-            { "nombre": "Ruido máximo", "valor": 25.6, "unidad": "dBA", "mejor": "menor" },
-            { "nombre": "Sockets compatibles", "valor": "AM4, AM5, LGA1700, LGA1851", "mejor": null }
+            {
+              "nombre": "Tipo",
+              "valor": "Aire, torre doble",
+              "mejor": null
+            },
+            {
+              "nombre": "Tubos de calor (heatpipes)",
+              "valor": 6,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Ventiladores incluidos",
+              "valor": 2,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Altura",
+              "valor": 155,
+              "unidad": "mm",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Ruido máximo",
+              "valor": 25.6,
+              "unidad": "dBA",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Sockets compatibles",
+              "valor": "AM4, AM5, LGA1700, LGA1851",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "DeepCool",
           "modelo": "AK620",
           "precioGTQ": 649,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20DeepCool%20AK620%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/enfriamiento/deepcool-ak620.jpg",
+          "imagen": "img/enfriamiento/deepcool-ak620-f7270924.webp",
           "specs": [
-            { "nombre": "Tipo", "valor": "Aire, torre doble", "mejor": null },
-            { "nombre": "Tubos de calor (heatpipes)", "valor": 6, "mejor": "mayor" },
-            { "nombre": "Ventiladores incluidos", "valor": 2, "mejor": "mayor" },
-            { "nombre": "Altura", "valor": 160, "unidad": "mm", "mejor": "menor" },
-            { "nombre": "Ruido máximo", "valor": 28, "unidad": "dBA", "mejor": "menor" },
-            { "nombre": "Sockets compatibles", "valor": "AM4, AM5, LGA1700, LGA1851", "mejor": null }
+            {
+              "nombre": "Tipo",
+              "valor": "Aire, torre doble",
+              "mejor": null
+            },
+            {
+              "nombre": "Tubos de calor (heatpipes)",
+              "valor": 6,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Ventiladores incluidos",
+              "valor": 2,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Altura",
+              "valor": 160,
+              "unidad": "mm",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Ruido máximo",
+              "valor": 28,
+              "unidad": "dBA",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Sockets compatibles",
+              "valor": "AM4, AM5, LGA1700, LGA1851",
+              "mejor": null
+            }
           ]
         }
       ],

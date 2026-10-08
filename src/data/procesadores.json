@@ -13,39 +13,101 @@
         {
           "marca": "AMD",
           "modelo": "Ryzen 7 9800X3D",
-          "precioGTQ": 4299,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
-          "verificado": false,
-          "imagen": "img/procesadores/amd-ryzen-7-9800x3d.jpg",
+          "precioGTQ": 5432,
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.intelaf.com/precios_stock_detallado/amd-ry7-9800x3d",
+          "verificado": true,
+          "imagen": "img/procesadores/amd-ryzen-7-9800x3d-eb5549c6.webp",
           "specs": [
-            { "nombre": "Núcleos", "valor": 8, "mejor": "mayor" },
-            { "nombre": "Tipo de núcleos", "valor": "8 iguales (Zen 5)", "mejor": null },
-            { "nombre": "Hilos", "valor": 16, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 5.2, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 96, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 120, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "AM5", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 8,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de núcleos",
+              "valor": "8 iguales (Zen 5)",
+              "mejor": null
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 16,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 5.2,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 96,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 120,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "AM5",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Intel",
           "modelo": "Core Ultra 7 265K",
-          "precioGTQ": 2899,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
-          "verificado": false,
-          "imagen": "img/procesadores/intel-core-ultra-7-265k.jpg",
+          "precioGTQ": 3521,
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.intelaf.com/precios_stock_detallado/cor-u7265k-3.9",
+          "verificado": true,
+          "imagen": "img/procesadores/intel-core-ultra-7-265k-064c831e.jpg",
           "specs": [
-            { "nombre": "Núcleos", "valor": 20, "mejor": "mayor" },
-            { "nombre": "Tipo de núcleos", "valor": "8 de rendimiento + 12 de eficiencia", "mejor": null },
-            { "nombre": "Hilos", "valor": 20, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 5.5, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 30, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 125, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "LGA1851", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 20,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de núcleos",
+              "valor": "8 de rendimiento + 12 de eficiencia",
+              "mejor": null
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 20,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 5.5,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 30,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 125,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "LGA1851",
+              "mejor": null
+            }
           ]
         }
       ],

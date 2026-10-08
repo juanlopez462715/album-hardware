@@ -14,42 +14,124 @@
           "marca": "NVIDIA",
           "modelo": "GeForce RTX 5060 Ti 16 GB",
           "precioGTQ": 4199,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20NVIDIA%20GeForce%20RTX%205060%20Ti%2016%20GB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/tarjetas-graficas/nvidia-rtx-5060-ti-16gb.jpg",
+          "imagen": "img/tarjetas-graficas/nvidia-geforce-rtx-5060-ti-16-gb-506d6535.avif",
           "specs": [
-            { "nombre": "Arquitectura", "valor": "Blackwell", "mejor": null },
-            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Tipo de memoria", "valor": "GDDR7", "mejor": null },
-            { "nombre": "Bus de memoria", "valor": 128, "unidad": "bits", "mejor": "mayor" },
-            { "nombre": "Ancho de banda", "valor": 448, "unidad": "GB/s", "mejor": "mayor" },
-            { "nombre": "Frecuencia boost", "valor": 2572, "unidad": "MHz", "mejor": "mayor" },
-            { "nombre": "Consumo de la tarjeta", "valor": 180, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Interfaz", "valor": "PCIe 5.0 x8", "mejor": null },
-            { "nombre": "Escalado con IA", "valor": "DLSS 4", "mejor": null }
+            {
+              "nombre": "Arquitectura",
+              "valor": "Blackwell",
+              "mejor": null
+            },
+            {
+              "nombre": "Memoria de video",
+              "valor": 16,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de memoria",
+              "valor": "GDDR7",
+              "mejor": null
+            },
+            {
+              "nombre": "Bus de memoria",
+              "valor": 128,
+              "unidad": "bits",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Ancho de banda",
+              "valor": 448,
+              "unidad": "GB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia boost",
+              "valor": 2572,
+              "unidad": "MHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Consumo de la tarjeta",
+              "valor": 180,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "PCIe 5.0 x8",
+              "mejor": null
+            },
+            {
+              "nombre": "Escalado con IA",
+              "valor": "DLSS 4",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "AMD",
           "modelo": "Radeon RX 9060 XT 16 GB",
           "precioGTQ": 3499,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20AMD%20Radeon%20RX%209060%20XT%2016%20GB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/tarjetas-graficas/amd-radeon-rx-9060-xt-16gb.jpg",
+          "imagen": "img/tarjetas-graficas/amd-radeon-rx-9060-xt-16-gb-d3503bad.webp",
           "specs": [
-            { "nombre": "Arquitectura", "valor": "RDNA 4", "mejor": null },
-            { "nombre": "Memoria de video", "valor": 16, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Tipo de memoria", "valor": "GDDR6", "mejor": null },
-            { "nombre": "Bus de memoria", "valor": 128, "unidad": "bits", "mejor": "mayor" },
-            { "nombre": "Ancho de banda", "valor": 320, "unidad": "GB/s", "mejor": "mayor" },
-            { "nombre": "Frecuencia boost", "valor": 3130, "unidad": "MHz", "mejor": "mayor" },
-            { "nombre": "Consumo de la tarjeta", "valor": 160, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Interfaz", "valor": "PCIe 5.0 x16", "mejor": null },
-            { "nombre": "Escalado con IA", "valor": "FSR 4", "mejor": null }
+            {
+              "nombre": "Arquitectura",
+              "valor": "RDNA 4",
+              "mejor": null
+            },
+            {
+              "nombre": "Memoria de video",
+              "valor": 16,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de memoria",
+              "valor": "GDDR6",
+              "mejor": null
+            },
+            {
+              "nombre": "Bus de memoria",
+              "valor": 128,
+              "unidad": "bits",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Ancho de banda",
+              "valor": 320,
+              "unidad": "GB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia boost",
+              "valor": 3130,
+              "unidad": "MHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Consumo de la tarjeta",
+              "valor": 160,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "PCIe 5.0 x16",
+              "mejor": null
+            },
+            {
+              "nombre": "Escalado con IA",
+              "valor": "FSR 4",
+              "mejor": null
+            }
           ]
         }
       ],

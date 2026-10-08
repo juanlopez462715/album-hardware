@@ -33,7 +33,7 @@ const errores = [...erroresSintaxis, ...resultado.errores];
 const imagenesFaltantes = resultado.categorias.flatMap((categoria) =>
   categoria.comparaciones.flatMap((comparacion) =>
     comparacion.productos
-      .filter((producto) => producto.imagen && !existsSync(join(carpetaPublica, producto.imagen)))
+      .filter((producto) => producto.imagen && !producto.imagen.startsWith('https://') && !existsSync(join(carpetaPublica, producto.imagen)))
       .map((producto) => `public/${producto.imagen}`),
   ),
 );

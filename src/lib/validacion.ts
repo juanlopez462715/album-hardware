@@ -72,7 +72,7 @@ export function validarColeccion(archivos: ArchivoDatos[]): ResultadoValidacion 
         if (producto.verificado && !producto.urlFuente) {
           avisos.push({ archivo, ruta: `${ruta} › urlFuente`, mensaje: 'precio verificado sin enlace de fuente (recomendado para la defensa)' });
         }
-        if (producto.imagen && !producto.imagen.startsWith(`img/${categoria.categoria}/`)) {
+        if (producto.imagen && !producto.imagen.startsWith('https://') && !producto.imagen.startsWith(`img/${categoria.categoria}/`)) {
           avisos.push({ archivo, ruta: `${ruta} › imagen`, mensaje: `se recomienda guardar la imagen en public/img/${categoria.categoria}/` });
         }
       });

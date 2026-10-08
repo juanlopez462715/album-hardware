@@ -14,36 +14,90 @@
           "marca": "TP-Link",
           "modelo": "RE505X",
           "precioGTQ": 549,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20TP-Link%20RE505X%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/repetidores/tp-link-re505x.jpg",
+          "imagen": "img/repetidores/tp-link-re505x-963a5fee.jpg",
           "specs": [
-            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
-            { "nombre": "Velocidad total (clase)", "valor": 1500, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 5 GHz", "valor": 1201, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 2.4 GHz", "valor": 300, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Puerto Ethernet", "valor": "1 × Gigabit", "mejor": null },
-            { "nombre": "Red en malla (mesh)", "valor": "OneMesh", "mejor": null }
+            {
+              "nombre": "Estándar",
+              "valor": "Wi-Fi 6 (802.11ax)",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad total (clase)",
+              "valor": 1500,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 5 GHz",
+              "valor": 1201,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 2.4 GHz",
+              "valor": 300,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Puerto Ethernet",
+              "valor": "1 × Gigabit",
+              "mejor": null
+            },
+            {
+              "nombre": "Red en malla (mesh)",
+              "valor": "OneMesh",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Mercusys",
           "modelo": "ME70X",
           "precioGTQ": 449,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Mercusys%20ME70X%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/repetidores/mercusys-me70x.jpg",
+          "imagen": "img/repetidores/mercusys-me70x-74453130.jpg",
           "specs": [
-            { "nombre": "Estándar", "valor": "Wi-Fi 6 (802.11ax)", "mejor": null },
-            { "nombre": "Velocidad total (clase)", "valor": 1800, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 5 GHz", "valor": 1201, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Velocidad en 2.4 GHz", "valor": 574, "unidad": "Mbps", "mejor": "mayor" },
-            { "nombre": "Puerto Ethernet", "valor": "1 × Gigabit", "mejor": null },
-            { "nombre": "Red en malla (mesh)", "valor": "EasyMesh", "mejor": null }
+            {
+              "nombre": "Estándar",
+              "valor": "Wi-Fi 6 (802.11ax)",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad total (clase)",
+              "valor": 1800,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 5 GHz",
+              "valor": 1201,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Velocidad en 2.4 GHz",
+              "valor": 574,
+              "unidad": "Mbps",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Puerto Ethernet",
+              "valor": "1 × Gigabit",
+              "mejor": null
+            },
+            {
+              "nombre": "Red en malla (mesh)",
+              "valor": "EasyMesh",
+              "mejor": null
+            }
           ]
         }
       ],

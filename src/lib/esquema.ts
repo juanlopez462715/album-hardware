@@ -16,6 +16,12 @@ const slug = z
   });
 
 const textoNoVacio = z.string().regex(/\S/, { error: 'no puede quedar vacío' });
+const rutaImagenLocal = z.string().regex(/^img\/[a-z0-9-]+\/[^/\s]+\.(jpe?g|png|webp|avif|svg)$/i, {
+  error: 'la ruta debe ser como "img/<categoria>/<archivo>.jpg", sin espacios y sin "/" al inicio',
+});
+const imagenRemota = z.url({ error: 'debe ser un enlace completo que empiece con https://' }).refine((url) => url.startsWith('https://'), {
+  error: 'las imágenes remotas deben usar https://',
+});
 
 export const esquemaSpec = z
   .strictObject({
@@ -50,11 +56,10 @@ export const esquemaProducto = z
     imagen: z
       .union([
         z.literal(''),
-        z.string().regex(/^img\/[a-z0-9-]+\/[^/\s]+\.(jpe?g|png|webp|avif|svg)$/i, {
-          error: 'la ruta debe ser como "img/<categoria>/<archivo>.jpg", sin espacios y sin "/" al inicio',
-        }),
+        rutaImagenLocal,
+        imagenRemota,
       ])
-      .describe('Ruta dentro de public/. Ej. "img/ram/kingston-fury-beast.jpg". Vacío para usar el placeholder'),
+      .describe('Ruta dentro de public/ o URL https. Ej. "img/ram/kingston.jpg" o "https://...". Vacío para usar el placeholder'),
     specs: z.array(esquemaSpec).min(1, { error: 'agrega al menos una característica' }),
   })
   .superRefine((producto, ctx) => {

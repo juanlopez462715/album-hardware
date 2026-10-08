@@ -15,38 +15,100 @@
           "marca": "AMD",
           "modelo": "Ryzen 5 5600",
           "precioGTQ": 999,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20AMD%20Ryzen%205%205600%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/microprocesadores/amd-ryzen-5-5600.jpg",
+          "imagen": "img/microprocesadores/amd-ryzen-5-5600-14fb32be.webp",
           "specs": [
-            { "nombre": "Núcleos", "valor": 6, "mejor": "mayor" },
-            { "nombre": "Hilos", "valor": 12, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 4.4, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 32, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 65, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "AM4", "mejor": null },
-            { "nombre": "Gráficos integrados", "valor": "No", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 6,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 12,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 4.4,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 32,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 65,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "AM4",
+              "mejor": null
+            },
+            {
+              "nombre": "Gráficos integrados",
+              "valor": "No",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Intel",
           "modelo": "Core i3-14100F",
           "precioGTQ": 899,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Intel%20Core%20i3-14100F%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/microprocesadores/intel-core-i3-14100f.jpg",
+          "imagen": "img/microprocesadores/intel-core-i3-14100f-df4dedfa.webp",
           "specs": [
-            { "nombre": "Núcleos", "valor": 4, "mejor": "mayor" },
-            { "nombre": "Hilos", "valor": 8, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 4.7, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 12, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 58, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "LGA1700", "mejor": null },
-            { "nombre": "Gráficos integrados", "valor": "No", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 4,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 8,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 4.7,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 12,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 58,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "LGA1700",
+              "mejor": null
+            },
+            {
+              "nombre": "Gráficos integrados",
+              "valor": "No",
+              "mejor": null
+            }
           ]
         }
       ],
@@ -69,38 +131,100 @@
           "marca": "AMD",
           "modelo": "Ryzen 5 9600X",
           "precioGTQ": 1999,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20AMD%20Ryzen%205%209600X%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/microprocesadores/amd-ryzen-5-9600x.jpg",
+          "imagen": "img/microprocesadores/amd-ryzen-5-9600x-fad18a0b.jpg",
           "specs": [
-            { "nombre": "Núcleos", "valor": 6, "mejor": "mayor" },
-            { "nombre": "Tipo de núcleos", "valor": "6 iguales (Zen 5)", "mejor": null },
-            { "nombre": "Hilos", "valor": 12, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 5.4, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 32, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 65, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "AM5", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 6,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de núcleos",
+              "valor": "6 iguales (Zen 5)",
+              "mejor": null
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 12,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 5.4,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 32,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 65,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "AM5",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Intel",
           "modelo": "Core Ultra 5 245K",
           "precioGTQ": 2299,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Intel%20Core%20Ultra%205%20245K%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/microprocesadores/intel-core-ultra-5-245k.jpg",
+          "imagen": "img/microprocesadores/intel-core-ultra-5-245k-e948fdcb.webp",
           "specs": [
-            { "nombre": "Núcleos", "valor": 14, "mejor": "mayor" },
-            { "nombre": "Tipo de núcleos", "valor": "6 de rendimiento + 8 de eficiencia", "mejor": null },
-            { "nombre": "Hilos", "valor": 14, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 5.2, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 24, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 125, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "LGA1851", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 14,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de núcleos",
+              "valor": "6 de rendimiento + 8 de eficiencia",
+              "mejor": null
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 14,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 5.2,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 24,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 125,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "LGA1851",
+              "mejor": null
+            }
           ]
         }
       ],
@@ -123,38 +247,100 @@
           "marca": "AMD",
           "modelo": "Ryzen 9 9950X3D",
           "precioGTQ": 6499,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20AMD%20Ryzen%209%209950X3D%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/microprocesadores/amd-ryzen-9-9950x3d.jpg",
+          "imagen": "img/microprocesadores/amd-ryzen-9-9950x3d-9b79c042.webp",
           "specs": [
-            { "nombre": "Núcleos", "valor": 16, "mejor": "mayor" },
-            { "nombre": "Tipo de núcleos", "valor": "16 iguales (Zen 5)", "mejor": null },
-            { "nombre": "Hilos", "valor": 32, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 5.7, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 128, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 170, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "AM5", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 16,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de núcleos",
+              "valor": "16 iguales (Zen 5)",
+              "mejor": null
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 32,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 5.7,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 128,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 170,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "AM5",
+              "mejor": null
+            }
           ]
         },
         {
           "marca": "Intel",
           "modelo": "Core Ultra 9 285K",
           "precioGTQ": 4999,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Intel%20Core%20Ultra%209%20285K%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/microprocesadores/intel-core-ultra-9-285k.jpg",
+          "imagen": "img/microprocesadores/intel-core-ultra-9-285k-80d0f9e0.webp",
           "specs": [
-            { "nombre": "Núcleos", "valor": 24, "mejor": "mayor" },
-            { "nombre": "Tipo de núcleos", "valor": "8 de rendimiento + 16 de eficiencia", "mejor": null },
-            { "nombre": "Hilos", "valor": 24, "mejor": "mayor" },
-            { "nombre": "Frecuencia turbo máxima", "valor": 5.7, "unidad": "GHz", "mejor": "mayor" },
-            { "nombre": "Caché L3", "valor": 36, "unidad": "MB", "mejor": "mayor" },
-            { "nombre": "Potencia base (TDP)", "valor": 125, "unidad": "W", "mejor": "menor" },
-            { "nombre": "Socket", "valor": "LGA1851", "mejor": null }
+            {
+              "nombre": "Núcleos",
+              "valor": 24,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Tipo de núcleos",
+              "valor": "8 de rendimiento + 16 de eficiencia",
+              "mejor": null
+            },
+            {
+              "nombre": "Hilos",
+              "valor": 24,
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Frecuencia turbo máxima",
+              "valor": 5.7,
+              "unidad": "GHz",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Caché L3",
+              "valor": 36,
+              "unidad": "MB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Potencia base (TDP)",
+              "valor": 125,
+              "unidad": "W",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Socket",
+              "valor": "LGA1851",
+              "mejor": null
+            }
           ]
         }
       ],

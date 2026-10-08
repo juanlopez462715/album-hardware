@@ -14,34 +14,80 @@
           "marca": "Kingston",
           "modelo": "DataTraveler Kyson 128 GB",
           "precioGTQ": 149,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Kingston%20DataTraveler%20Kyson%20128%20GB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/memorias-usb/kingston-datatraveler-kyson-128gb.jpg",
+          "imagen": "img/memorias-usb/kingston-datatraveler-kyson-128-gb-e5590ac4.webp",
           "specs": [
-            { "nombre": "Capacidad", "valor": 128, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "USB 3.2 Gen 1 (USB-A)", "mejor": null },
-            { "nombre": "Lectura máxima", "valor": 200, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Carcasa", "valor": "Metal", "mejor": null },
-            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 128,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "USB 3.2 Gen 1 (USB-A)",
+              "mejor": null
+            },
+            {
+              "nombre": "Lectura máxima",
+              "valor": 200,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Carcasa",
+              "valor": "Metal",
+              "mejor": null
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 5,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         },
         {
           "marca": "SanDisk",
           "modelo": "Ultra Flair 128 GB",
           "precioGTQ": 139,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20SanDisk%20Ultra%20Flair%20128%20GB%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/memorias-usb/sandisk-ultra-flair-128gb.jpg",
+          "imagen": "img/memorias-usb/sandisk-ultra-flair-128-gb-8b7a458e.avif",
           "specs": [
-            { "nombre": "Capacidad", "valor": 128, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Interfaz", "valor": "USB 3.2 Gen 1 (USB-A)", "mejor": null },
-            { "nombre": "Lectura máxima", "valor": 150, "unidad": "MB/s", "mejor": "mayor" },
-            { "nombre": "Carcasa", "valor": "Metal", "mejor": null },
-            { "nombre": "Garantía", "valor": 5, "unidad": "años", "mejor": "mayor" }
+            {
+              "nombre": "Capacidad",
+              "valor": 128,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Interfaz",
+              "valor": "USB 3.2 Gen 1 (USB-A)",
+              "mejor": null
+            },
+            {
+              "nombre": "Lectura máxima",
+              "valor": 150,
+              "unidad": "MB/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Carcasa",
+              "valor": "Metal",
+              "mejor": null
+            },
+            {
+              "nombre": "Garantía",
+              "valor": 5,
+              "unidad": "años",
+              "mejor": "mayor"
+            }
           ]
         }
       ],

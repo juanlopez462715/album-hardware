@@ -14,38 +14,104 @@
           "marca": "Kingston",
           "modelo": "FURY Beast 32 GB (2×16 GB) DDR5-6000 CL36",
           "precioGTQ": 2299,
-          "tienda": "Intelaf",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Kingston%20FURY%20Beast%2032%20GB%20(2%C3%9716%20GB)%20DDR5-6000%20CL36%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/ram/kingston-fury-beast-ddr5-6000-cl36.jpg",
+          "imagen": "img/ram/kingston-fury-beast-32-gb-2-16-gb-ddr5-6000-cl36-a47e4a96.jpg",
           "specs": [
-            { "nombre": "Tipo", "valor": "DDR5", "mejor": null },
-            { "nombre": "Capacidad total", "valor": 32, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Módulos", "valor": "2 × 16 GB", "mejor": null },
-            { "nombre": "Velocidad", "valor": 6000, "unidad": "MT/s", "mejor": "mayor" },
-            { "nombre": "Latencia CAS (CL)", "valor": 36, "unidad": "ciclos", "mejor": "menor" },
-            { "nombre": "Latencia real", "valor": 12, "unidad": "ns", "mejor": "menor" },
-            { "nombre": "Voltaje", "valor": 1.35, "unidad": "V", "mejor": "menor" }
+            {
+              "nombre": "Tipo",
+              "valor": "DDR5",
+              "mejor": null
+            },
+            {
+              "nombre": "Capacidad total",
+              "valor": 32,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Módulos",
+              "valor": "2 × 16 GB",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad",
+              "valor": 6000,
+              "unidad": "MT/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Latencia CAS (CL)",
+              "valor": 36,
+              "unidad": "ciclos",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Latencia real",
+              "valor": 12,
+              "unidad": "ns",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Voltaje",
+              "valor": 1.35,
+              "unidad": "V",
+              "mejor": "menor"
+            }
           ]
         },
         {
           "marca": "Corsair",
           "modelo": "Vengeance 32 GB (2×16 GB) DDR5-6000 CL30",
           "precioGTQ": 2549,
-          "tienda": "Click",
-          "fechaConsulta": "",
-          "urlFuente": "",
+          "tienda": "Intelaf Guatemala",
+          "fechaConsulta": "2026-10-02",
+          "urlFuente": "https://www.google.com/search?q=site%3Aintelaf.com%2Fprecios_stock_detallado%20Corsair%20Vengeance%2032%20GB%20(2%C3%9716%20GB)%20DDR5-6000%20CL30%20Guatemala%20precio",
           "verificado": false,
-          "imagen": "img/ram/corsair-vengeance-ddr5-6000-cl30.jpg",
+          "imagen": "img/ram/corsair-vengeance-32-gb-2-16-gb-ddr5-6000-cl30-9227b3e2.webp",
           "specs": [
-            { "nombre": "Tipo", "valor": "DDR5", "mejor": null },
-            { "nombre": "Capacidad total", "valor": 32, "unidad": "GB", "mejor": "mayor" },
-            { "nombre": "Módulos", "valor": "2 × 16 GB", "mejor": null },
-            { "nombre": "Velocidad", "valor": 6000, "unidad": "MT/s", "mejor": "mayor" },
-            { "nombre": "Latencia CAS (CL)", "valor": 30, "unidad": "ciclos", "mejor": "menor" },
-            { "nombre": "Latencia real", "valor": 10, "unidad": "ns", "mejor": "menor" },
-            { "nombre": "Voltaje", "valor": 1.4, "unidad": "V", "mejor": "menor" }
+            {
+              "nombre": "Tipo",
+              "valor": "DDR5",
+              "mejor": null
+            },
+            {
+              "nombre": "Capacidad total",
+              "valor": 32,
+              "unidad": "GB",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Módulos",
+              "valor": "2 × 16 GB",
+              "mejor": null
+            },
+            {
+              "nombre": "Velocidad",
+              "valor": 6000,
+              "unidad": "MT/s",
+              "mejor": "mayor"
+            },
+            {
+              "nombre": "Latencia CAS (CL)",
+              "valor": 30,
+              "unidad": "ciclos",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Latencia real",
+              "valor": 10,
+              "unidad": "ns",
+              "mejor": "menor"
+            },
+            {
+              "nombre": "Voltaje",
+              "valor": 1.4,
+              "unidad": "V",
+              "mejor": "menor"
+            }
           ]
         }
       ],
